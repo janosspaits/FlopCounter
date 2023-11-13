@@ -50,7 +50,7 @@ def read_api_key(filepath):
     with open(filepath, 'r') as file:
         return file.readline().strip()
 
-# Example call to fetch_nba_schedule:
+# Uncomment and call to fetch_nba_schedule:
 
 # api_key = read_api_key('apikey.txt')
 # fetch_nba_schedule(api_key)
