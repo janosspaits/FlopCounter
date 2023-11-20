@@ -1,0 +1,1218 @@
+{
+    "league": {
+        "id": "4353138d-4c22-4396-95d8-5f587d2df25c",
+        "name": "NBA",
+        "alias": "NBA"
+    },
+    "conferences": [{
+        "id": "3960cfac-7361-4b30-bc25-8d393de6f62f",
+        "name": "EASTERN CONFERENCE",
+        "alias": "EASTERN",
+        "divisions": [{
+            "id": "54dc7348-c1d2-40d8-88b3-c4c0138e085d",
+            "name": "Southeast",
+            "alias": "SOUTHEAST",
+            "teams": [{
+                "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Wizards",
+                "market": "Washington",
+                "alias": "WAS",
+                "sr_id": "sr:team:3431",
+                "reference": "1610612764",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#e31837",
+                    "rgb_color": {
+                        "red": 227,
+                        "green": 24,
+                        "blue": 55
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#002b5c",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 43,
+                        "blue": 92
+                    }
+                }],
+                "venue": {
+                    "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+                    "name": "Capital One Arena",
+                    "capacity": 20356,
+                    "address": "601 F Street NW",
+                    "city": "Washington",
+                    "state": "DC",
+                    "zip": "20004",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6016",
+                    "location": {
+                        "lat": "38.898056",
+                        "lng": "-77.020833"
+                    }
+                }
+            }, {
+                "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Hornets",
+                "market": "Charlotte",
+                "alias": "CHA",
+                "sr_id": "sr:team:3430",
+                "reference": "1610612766",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#1d1160",
+                    "rgb_color": {
+                        "red": 29,
+                        "green": 17,
+                        "blue": 96
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#00788c",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 120,
+                        "blue": 140
+                    }
+                }],
+                "venue": {
+                    "id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+                    "name": "Spectrum Center",
+                    "capacity": 19077,
+                    "address": "330 E. Trade Street",
+                    "city": "Charlotte",
+                    "state": "NC",
+                    "zip": "28202",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6146",
+                    "location": {
+                        "lat": "35.225148",
+                        "lng": "-80.839249"
+                    }
+                }
+            }, {
+                "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Hawks",
+                "market": "Atlanta",
+                "alias": "ATL",
+                "sr_id": "sr:team:3423",
+                "reference": "1610612737",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#c8102e",
+                    "rgb_color": {
+                        "red": 200,
+                        "green": 16,
+                        "blue": 46
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#fdb927",
+                    "rgb_color": {
+                        "red": 253,
+                        "green": 185,
+                        "blue": 39
+                    }
+                }],
+                "venue": {
+                    "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                    "name": "State Farm Arena",
+                    "capacity": 18118,
+                    "address": "One Philips Drive",
+                    "city": "Atlanta",
+                    "state": "GA",
+                    "zip": "30303",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6916",
+                    "location": {
+                        "lat": "33.757162",
+                        "lng": "-84.396352"
+                    }
+                }
+            }, {
+                "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Heat",
+                "market": "Miami",
+                "alias": "MIA",
+                "sr_id": "sr:team:3435",
+                "reference": "1610612748",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#98002e",
+                    "rgb_color": {
+                        "red": 152,
+                        "green": 0,
+                        "blue": 46
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#000000",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    }
+                }],
+                "venue": {
+                    "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+                    "name": "Kaseya Center",
+                    "capacity": 19600,
+                    "address": "601 Biscayne Boulevard",
+                    "city": "Miami",
+                    "state": "FL",
+                    "zip": "33132",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6928",
+                    "location": {
+                        "lat": "25.781389",
+                        "lng": "-80.188056"
+                    }
+                }
+            }, {
+                "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Magic",
+                "market": "Orlando",
+                "alias": "ORL",
+                "sr_id": "sr:team:3437",
+                "reference": "1610612753",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#c4ced3",
+                    "rgb_color": {
+                        "red": 196,
+                        "green": 206,
+                        "blue": 211
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#007dc5",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 125,
+                        "blue": 197
+                    }
+                }],
+                "venue": {
+                    "id": "aecd8da6-0404-599c-a792-4b33fb084a2a",
+                    "name": "Amway Center",
+                    "capacity": 18846,
+                    "address": "400 W. Church Street",
+                    "city": "Orlando",
+                    "state": "FL",
+                    "zip": "32801",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6936",
+                    "location": {
+                        "lat": "28.539167",
+                        "lng": "-81.383611"
+                    }
+                }
+            }]
+        }, {
+            "id": "582d6502-9a93-4a8d-8785-69374d732875",
+            "name": "Atlantic",
+            "alias": "ATLANTIC",
+            "teams": [{
+                "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Knicks",
+                "market": "New York",
+                "alias": "NYK",
+                "sr_id": "sr:team:3421",
+                "reference": "1610612752",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#006bb6",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 107,
+                        "blue": 182
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#f58426",
+                    "rgb_color": {
+                        "red": 245,
+                        "green": 132,
+                        "blue": 38
+                    }
+                }],
+                "venue": {
+                    "id": "583152aa-de75-5bea-ac92-ac5b8a51f9f9",
+                    "name": "Madison Square Garden",
+                    "capacity": 19812,
+                    "address": "4 Pennsylvania Plaza",
+                    "city": "New York",
+                    "state": "NY",
+                    "zip": "10001",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6054",
+                    "location": {
+                        "lat": "40.750496",
+                        "lng": "-73.993447"
+                    }
+                }
+            }, {
+                "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "76ers",
+                "market": "Philadelphia",
+                "alias": "PHI",
+                "sr_id": "sr:team:3420",
+                "reference": "1610612755",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#006bb6",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 107,
+                        "blue": 182
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#ed174c",
+                    "rgb_color": {
+                        "red": 237,
+                        "green": 23,
+                        "blue": 76
+                    }
+                }],
+                "venue": {
+                    "id": "b3dca541-859e-5301-bf90-4ec677a514a9",
+                    "name": "Wells Fargo Center",
+                    "capacity": 20478,
+                    "address": "3601 S. Broad Street",
+                    "city": "Philadelphia",
+                    "state": "PA",
+                    "zip": "19148",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6068",
+                    "location": {
+                        "lat": "39.9012",
+                        "lng": "-75.171995"
+                    }
+                }
+            }, {
+                "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Nets",
+                "market": "Brooklyn",
+                "alias": "BKN",
+                "sr_id": "sr:team:3436",
+                "reference": "1610612751",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#ffffff",
+                    "rgb_color": {
+                        "red": 255,
+                        "green": 255,
+                        "blue": 255
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#000000",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    }
+                }],
+                "venue": {
+                    "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                    "name": "Barclays Center",
+                    "capacity": 17732,
+                    "address": "620 Atlantic Avenue",
+                    "city": "Brooklyn",
+                    "state": "NY",
+                    "zip": "11217",
+                    "country": "USA",
+                    "sr_id": "sr:venue:36132",
+                    "location": {
+                        "lat": "40.682957",
+                        "lng": "-73.975165"
+                    }
+                }
+            }, {
+                "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Celtics",
+                "market": "Boston",
+                "alias": "BOS",
+                "sr_id": "sr:team:3422",
+                "reference": "1610612738",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#ffffff",
+                    "rgb_color": {
+                        "red": 255,
+                        "green": 255,
+                        "blue": 255
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#008348",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 131,
+                        "blue": 72
+                    }
+                }],
+                "venue": {
+                    "id": "7d69b080-91ca-53c9-9302-45c1a72c5549",
+                    "name": "TD Garden",
+                    "capacity": 18624,
+                    "address": "100 Legends Way",
+                    "city": "Boston",
+                    "state": "MA",
+                    "zip": "02114",
+                    "country": "USA",
+                    "sr_id": "sr:venue:5940",
+                    "location": {
+                        "lat": "42.366303",
+                        "lng": "-71.062228"
+                    }
+                }
+            }, {
+                "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Raptors",
+                "market": "Toronto",
+                "alias": "TOR",
+                "sr_id": "sr:team:3433",
+                "reference": "1610612761",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#000000",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#ce1141",
+                    "rgb_color": {
+                        "red": 206,
+                        "green": 17,
+                        "blue": 65
+                    }
+                }],
+                "venue": {
+                    "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+                    "name": "Scotiabank Arena",
+                    "capacity": 19800,
+                    "address": "40 Bay Street",
+                    "city": "Toronto",
+                    "state": "ON",
+                    "zip": "M5J 2X2",
+                    "country": "CAN",
+                    "sr_id": "sr:venue:6030",
+                    "location": {
+                        "lat": "43.643333",
+                        "lng": "-79.379167"
+                    }
+                }
+            }]
+        }, {
+            "id": "f3aaf23a-1ceb-46ef-8fef-9403692e801b",
+            "name": "Central",
+            "alias": "CENTRAL",
+            "teams": [{
+                "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Bulls",
+                "market": "Chicago",
+                "alias": "CHI",
+                "sr_id": "sr:team:3409",
+                "reference": "1610612741",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#ce1141",
+                    "rgb_color": {
+                        "red": 206,
+                        "green": 17,
+                        "blue": 65
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#000000",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    }
+                }],
+                "venue": {
+                    "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+                    "name": "United Center",
+                    "capacity": 20917,
+                    "address": "1901 W Madison Street",
+                    "city": "Chicago",
+                    "state": "IL",
+                    "zip": "60612",
+                    "country": "USA",
+                    "sr_id": "sr:venue:5964",
+                    "location": {
+                        "lat": "41.880675",
+                        "lng": "-87.674091"
+                    }
+                }
+            }, {
+                "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Cavaliers",
+                "market": "Cleveland",
+                "alias": "CLE",
+                "sr_id": "sr:team:3432",
+                "reference": "1610612739",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#6f263d",
+                    "rgb_color": {
+                        "red": 111,
+                        "green": 38,
+                        "blue": 61
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#ffb81c",
+                    "rgb_color": {
+                        "red": 255,
+                        "green": 184,
+                        "blue": 28
+                    }
+                }],
+                "venue": {
+                    "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+                    "name": "Rocket Mortgage Fieldhouse",
+                    "capacity": 19432,
+                    "address": "1 Center Court",
+                    "city": "Cleveland",
+                    "state": "OH",
+                    "zip": "44115",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6132",
+                    "location": {
+                        "lat": "41.496565",
+                        "lng": "-81.688265"
+                    }
+                }
+            }, {
+                "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Pacers",
+                "market": "Indiana",
+                "alias": "IND",
+                "sr_id": "sr:team:3419",
+                "reference": "1610612754",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#002d62",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 45,
+                        "blue": 98
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#fdbb30",
+                    "rgb_color": {
+                        "red": 253,
+                        "green": 187,
+                        "blue": 48
+                    }
+                }],
+                "venue": {
+                    "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+                    "name": "Gainbridge Fieldhouse",
+                    "capacity": 20000,
+                    "address": "125 S. Pennsylvania Street",
+                    "city": "Indianapolis",
+                    "state": "IN",
+                    "zip": "46204",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6924",
+                    "location": {
+                        "lat": "39.763975",
+                        "lng": "-86.15542"
+                    }
+                }
+            }, {
+                "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Pistons",
+                "market": "Detroit",
+                "alias": "DET",
+                "sr_id": "sr:team:3424",
+                "reference": "1610612765",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#c8102e",
+                    "rgb_color": {
+                        "red": 200,
+                        "green": 16,
+                        "blue": 46
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#1d428a",
+                    "rgb_color": {
+                        "red": 29,
+                        "green": 66,
+                        "blue": 138
+                    }
+                }],
+                "venue": {
+                    "id": "5a9ddefc-2267-4fd1-8d6e-0f82163ce8bd",
+                    "name": "Little Caesars Arena",
+                    "capacity": 20491,
+                    "address": "2645 Woodward Avenue",
+                    "city": "Detroit",
+                    "state": "MI",
+                    "zip": "48201",
+                    "country": "USA",
+                    "sr_id": "sr:venue:21782",
+                    "location": {
+                        "lat": "42.341172",
+                        "lng": "-83.054911"
+                    }
+                }
+            }, {
+                "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Bucks",
+                "market": "Milwaukee",
+                "alias": "MIL",
+                "sr_id": "sr:team:3410",
+                "reference": "1610612749",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#f0ebd2",
+                    "rgb_color": {
+                        "red": 240,
+                        "green": 235,
+                        "blue": 210
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#00471b",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 71,
+                        "blue": 27
+                    }
+                }],
+                "venue": {
+                    "id": "50b75324-b994-46af-a0a7-28db7bea67d0",
+                    "name": "Fiserv Forum",
+                    "capacity": 17500,
+                    "address": "1111 Vel R Phillips Avenue",
+                    "city": "Milwaukee",
+                    "state": "WI",
+                    "zip": "53203",
+                    "country": "USA",
+                    "sr_id": "sr:venue:31495",
+                    "location": {
+                        "lat": "43.045028",
+                        "lng": "-87.918167"
+                    }
+                }
+            }]
+        }]
+    }, {
+        "id": "7fe7e212-de01-4f8f-a31d-b9f0a95731e3",
+        "name": "WESTERN CONFERENCE",
+        "alias": "WESTERN",
+        "divisions": [{
+            "id": "12bf14ba-eb16-4c6f-8275-e801b6947c1e",
+            "name": "Northwest",
+            "alias": "NORTHWEST",
+            "teams": [{
+                "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Timberwolves",
+                "market": "Minnesota",
+                "alias": "MIN",
+                "sr_id": "sr:team:3426",
+                "reference": "1610612750",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#0c2340",
+                    "rgb_color": {
+                        "red": 12,
+                        "green": 35,
+                        "blue": 64
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#236192",
+                    "rgb_color": {
+                        "red": 35,
+                        "green": 97,
+                        "blue": 146
+                    }
+                }],
+                "venue": {
+                    "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                    "name": "Target Center",
+                    "capacity": 19356,
+                    "address": "600 First Avenue North",
+                    "city": "Minneapolis",
+                    "state": "MN",
+                    "zip": "55403",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6930",
+                    "location": {
+                        "lat": "44.979444",
+                        "lng": "-93.276111"
+                    }
+                }
+            }, {
+                "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Jazz",
+                "market": "Utah",
+                "alias": "UTA",
+                "sr_id": "sr:team:3434",
+                "reference": "1610612762",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#fff21f",
+                    "rgb_color": {
+                        "red": 255,
+                        "green": 242,
+                        "blue": 31
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#000000",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    }
+                }],
+                "venue": {
+                    "id": "53bac75a-a667-52b5-a416-b80718ae4ed2",
+                    "name": "Delta Center",
+                    "capacity": 18206,
+                    "address": "301 South Temple Street",
+                    "city": "Salt Lake City",
+                    "state": "UT",
+                    "zip": "84101",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6944",
+                    "location": {
+                        "lat": "40.768273",
+                        "lng": "-111.901141"
+                    }
+                }
+            }, {
+                "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Thunder",
+                "market": "Oklahoma City",
+                "alias": "OKC",
+                "sr_id": "sr:team:3418",
+                "reference": "1610612760",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#007dc3",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 125,
+                        "blue": 195
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#ef3b24",
+                    "rgb_color": {
+                        "red": 239,
+                        "green": 59,
+                        "blue": 36
+                    }
+                }],
+                "venue": {
+                    "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+                    "name": "Paycom Center",
+                    "capacity": 18203,
+                    "address": "100 W. Reno Avenue",
+                    "city": "Oklahoma City",
+                    "state": "OK",
+                    "zip": "73102",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6934",
+                    "location": {
+                        "lat": "35.463333",
+                        "lng": "-97.515"
+                    }
+                }
+            }, {
+                "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Trail Blazers",
+                "market": "Portland",
+                "alias": "POR",
+                "sr_id": "sr:team:3414",
+                "reference": "1610612757",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#e03a3e",
+                    "rgb_color": {
+                        "red": 224,
+                        "green": 58,
+                        "blue": 62
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#000000",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    }
+                }],
+                "venue": {
+                    "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+                    "name": "Moda Center",
+                    "capacity": 19393,
+                    "address": "1 Center Court",
+                    "city": "Portland",
+                    "state": "OR",
+                    "zip": "97227",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6940",
+                    "location": {
+                        "lat": "45.531667",
+                        "lng": "-122.666667"
+                    }
+                }
+            }, {
+                "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Nuggets",
+                "market": "Denver",
+                "alias": "DEN",
+                "sr_id": "sr:team:3417",
+                "reference": "1610612743",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#0e2240",
+                    "rgb_color": {
+                        "red": 14,
+                        "green": 34,
+                        "blue": 64
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#ffc627",
+                    "rgb_color": {
+                        "red": 255,
+                        "green": 198,
+                        "blue": 39
+                    }
+                }],
+                "venue": {
+                    "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
+                    "name": "Ball Arena",
+                    "capacity": 19520,
+                    "address": "1000 Chopper Circle",
+                    "city": "Denver",
+                    "state": "CO",
+                    "zip": "80204",
+                    "country": "USA",
+                    "sr_id": "sr:venue:5976",
+                    "location": {
+                        "lat": "39.749034",
+                        "lng": "-105.007604"
+                    }
+                }
+            }]
+        }, {
+            "id": "1d29f94c-9587-494b-a232-feb20a40eb4c",
+            "name": "Southwest",
+            "alias": "SOUTHWEST",
+            "teams": [{
+                "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Grizzlies",
+                "market": "Memphis",
+                "alias": "MEM",
+                "sr_id": "sr:team:3415",
+                "reference": "1610612763",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#5d76a9",
+                    "rgb_color": {
+                        "red": 93,
+                        "green": 118,
+                        "blue": 169
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#12173f",
+                    "rgb_color": {
+                        "red": 18,
+                        "green": 23,
+                        "blue": 63
+                    }
+                }],
+                "venue": {
+                    "id": "7657c204-a20b-527a-99cb-dc29218462aa",
+                    "name": "FedExForum",
+                    "capacity": 18119,
+                    "address": "191 Beale Street",
+                    "city": "Memphis",
+                    "state": "TN",
+                    "zip": "38103",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6926",
+                    "location": {
+                        "lat": "35.138142",
+                        "lng": "-90.050427"
+                    }
+                }
+            }, {
+                "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Rockets",
+                "market": "Houston",
+                "alias": "HOU",
+                "sr_id": "sr:team:3412",
+                "reference": "1610612745",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#ce1141",
+                    "rgb_color": {
+                        "red": 206,
+                        "green": 17,
+                        "blue": 65
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#c4ced3",
+                    "rgb_color": {
+                        "red": 196,
+                        "green": 206,
+                        "blue": 211
+                    }
+                }],
+                "venue": {
+                    "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+                    "name": "Toyota Center",
+                    "capacity": 18500,
+                    "address": "1510 Polk Street",
+                    "city": "Houston",
+                    "state": "TX",
+                    "zip": "77002",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6134",
+                    "location": {
+                        "lat": "29.750751",
+                        "lng": "-95.362049"
+                    }
+                }
+            }, {
+                "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Pelicans",
+                "market": "New Orleans",
+                "alias": "NOP",
+                "sr_id": "sr:team:5539",
+                "reference": "1610612740",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#001641",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 22,
+                        "blue": 65
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#e13a3e",
+                    "rgb_color": {
+                        "red": 225,
+                        "green": 58,
+                        "blue": 62
+                    }
+                }],
+                "venue": {
+                    "id": "6ec47e31-f778-5319-b6c4-3254e076ba0e",
+                    "name": "Smoothie King Center",
+                    "capacity": 16867,
+                    "address": "1501 Girod Street",
+                    "city": "New Orleans",
+                    "state": "LA",
+                    "zip": "70113",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6932",
+                    "location": {
+                        "lat": "29.948889",
+                        "lng": "-90.081944"
+                    }
+                }
+            }, {
+                "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Spurs",
+                "market": "San Antonio",
+                "alias": "SAS",
+                "sr_id": "sr:team:3429",
+                "reference": "1610612759",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#c4ced3",
+                    "rgb_color": {
+                        "red": 196,
+                        "green": 206,
+                        "blue": 211
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#000000",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    }
+                }],
+                "venue": {
+                    "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+                    "name": "Frost Bank Center",
+                    "capacity": 18581,
+                    "address": "1 AT&T Center Parkway",
+                    "city": "San Antonio",
+                    "state": "TX",
+                    "zip": "78219",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6112",
+                    "location": {
+                        "lat": "29.426944",
+                        "lng": "-98.4375"
+                    }
+                }
+            }, {
+                "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Mavericks",
+                "market": "Dallas",
+                "alias": "DAL",
+                "sr_id": "sr:team:3411",
+                "reference": "1610612742",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#00285e",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 40,
+                        "blue": 94
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#0053bc",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 83,
+                        "blue": 188
+                    }
+                }],
+                "venue": {
+                    "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+                    "name": "American Airlines Center",
+                    "capacity": 19200,
+                    "address": "2500 Victory Avenue",
+                    "city": "Dallas",
+                    "state": "TX",
+                    "zip": "75219",
+                    "country": "USA",
+                    "sr_id": "sr:venue:5988",
+                    "location": {
+                        "lat": "32.79087",
+                        "lng": "-96.810338"
+                    }
+                }
+            }]
+        }, {
+            "id": "f074cb3e-90cf-42e1-8067-cdbcd99ec230",
+            "name": "Pacific",
+            "alias": "PACIFIC",
+            "teams": [{
+                "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Warriors",
+                "market": "Golden State",
+                "alias": "GSW",
+                "sr_id": "sr:team:3428",
+                "reference": "1610612744",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#006bb6",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 107,
+                        "blue": 182
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#fdb927",
+                    "rgb_color": {
+                        "red": 253,
+                        "green": 185,
+                        "blue": 39
+                    }
+                }],
+                "venue": {
+                    "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                    "name": "Chase Center",
+                    "capacity": 18064,
+                    "address": "1 Warriors Way",
+                    "city": "San Francisco",
+                    "state": "CA",
+                    "zip": "94158",
+                    "country": "USA",
+                    "sr_id": "sr:venue:44446",
+                    "location": {
+                        "lat": "37.7679",
+                        "lng": "-122.3873"
+                    }
+                }
+            }, {
+                "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Lakers",
+                "market": "Los Angeles",
+                "alias": "LAL",
+                "sr_id": "sr:team:3427",
+                "reference": "1610612747",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#552582",
+                    "rgb_color": {
+                        "red": 85,
+                        "green": 37,
+                        "blue": 130
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#fdb927",
+                    "rgb_color": {
+                        "red": 253,
+                        "green": 185,
+                        "blue": 39
+                    }
+                }],
+                "venue": {
+                    "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+                    "name": "Crypto.com Arena",
+                    "capacity": 18997,
+                    "address": "1111 S. Figueroa Street",
+                    "city": "Los Angeles",
+                    "state": "CA",
+                    "zip": "90015",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6008",
+                    "location": {
+                        "lat": "34.043059",
+                        "lng": "-118.267223"
+                    }
+                }
+            }, {
+                "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Clippers",
+                "market": "LA",
+                "alias": "LAC",
+                "sr_id": "sr:team:3425",
+                "reference": "1610612746",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#c8102e",
+                    "rgb_color": {
+                        "red": 200,
+                        "green": 16,
+                        "blue": 46
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#1d428a",
+                    "rgb_color": {
+                        "red": 29,
+                        "green": 66,
+                        "blue": 138
+                    }
+                }],
+                "venue": {
+                    "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+                    "name": "Crypto.com Arena",
+                    "capacity": 18997,
+                    "address": "1111 S. Figueroa Street",
+                    "city": "Los Angeles",
+                    "state": "CA",
+                    "zip": "90015",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6008",
+                    "location": {
+                        "lat": "34.043059",
+                        "lng": "-118.267223"
+                    }
+                }
+            }, {
+                "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Suns",
+                "market": "Phoenix",
+                "alias": "PHX",
+                "sr_id": "sr:team:3416",
+                "reference": "1610612756",
+                "team_colors": [{
+                    "type": "primary",
+                    "hex_color": "#1d1160",
+                    "rgb_color": {
+                        "red": 29,
+                        "green": 17,
+                        "blue": 96
+                    }
+                }, {
+                    "type": "secondary",
+                    "hex_color": "#e56020",
+                    "rgb_color": {
+                        "red": 229,
+                        "green": 96,
+                        "blue": 32
+                    }
+                }],
+                "venue": {
+                    "id": "1d2e59b2-2479-5f84-a6a7-e82f65dd8442",
+                    "name": "Footprint Center",
+                    "capacity": 18422,
+                    "address": "201 E. Jefferson Street",
+                    "city": "Phoenix",
+                    "state": "AZ",
+                    "zip": "85004",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6938",
+                    "location": {
+                        "lat": "33.445833",
+                        "lng": "-112.071389"
+                    }
+                }
+            }, {
+                "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+                "name": "Kings",
+                "market": "Sacramento",
+                "alias": "SAC",
+                "sr_id": "sr:team:3413",
+                "reference": "1610612758",
+                "team_colors": [{
+                    "type": "secondary",
+                    "hex_color": "#000000",
+                    "rgb_color": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    }
+                }, {
+                    "type": "primary",
+                    "hex_color": "#5b2b82",
+                    "rgb_color": {
+                        "red": 91,
+                        "green": 43,
+                        "blue": 130
+                    }
+                }],
+                "venue": {
+                    "id": "2e687b9a-c7a7-487c-85b4-43479abc8458",
+                    "name": "Golden 1 Center",
+                    "capacity": 17608,
+                    "address": "500 David J. Stern Walkway",
+                    "city": "Sacramento",
+                    "state": "CA",
+                    "zip": "95814",
+                    "country": "USA",
+                    "sr_id": "sr:venue:6942",
+                    "location": {
+                        "lat": "38.580361",
+                        "lng": "-121.499611"
+                    }
+                }
+            }]
+        }]
+    }]
+}
