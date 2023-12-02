@@ -15,7 +15,10 @@ def fetch_play_by_play_data(game_id, api_key):
     response = requests.get(full_url)
 
     if response.status_code == 200:
-        return response.json()
+        data = response.json()
+        if 'periods' not in data:
+            print(f"Unexpected response structure for game {game_id}: {data}")
+        return data
     else:
         print(f"Error fetching data for game {game_id}: {response.status_code}")
         return None
@@ -76,11 +79,13 @@ def main():
         for game_id in ids:
             if game_id not in processed_games:
                 play_by_play_data = fetch_play_by_play_data(game_id, api_key)
-                if play_by_play_data:
+                if play_by_play_data and 'periods' in play_by_play_data:
                     periods_data = play_by_play_data["periods"]
                     flopping_fouls = extract_flopping_fouls(periods_data)
                     for player in flopping_fouls:
                         flopping_counts[player] = flopping_counts.get(player, 0) + 1
+                else:
+                    print(f"No 'periods' data for game {game_id}")
                 processed_games.add(game_id)  # Directly add to processed_games set
                 time.sleep(1.5)  # Delay due to API rate limit
 

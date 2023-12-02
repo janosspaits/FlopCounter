@@ -11510,9 +11510,11 @@
         },
         {
             "id": "12957aed-47ee-404e-b882-087a5196459c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-21T00:00:00Z",
+            "home_points": 103,
+            "away_points": 107,
             "track_on_court": true,
             "sr_id": "sr:match:43065675",
             "reference": "0022300218",
@@ -11567,9 +11569,11 @@
         },
         {
             "id": "740bb720-75ed-41e0-9155-fc92a2d489fd",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-21T00:00:00Z",
+            "home_points": 121,
+            "away_points": 118,
             "track_on_court": true,
             "sr_id": "sr:match:43065673",
             "reference": "0022300217",
@@ -11624,9 +11628,11 @@
         },
         {
             "id": "7a43179c-9d9f-4dfe-8492-dbfc68ad6042",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-21T00:00:00Z",
+            "home_points": 129,
+            "away_points": 142,
             "track_on_court": true,
             "sr_id": "sr:match:43065677",
             "reference": "0022300219",
@@ -11681,9 +11687,11 @@
         },
         {
             "id": "4280d3bf-1990-4ae4-8604-0409d876bb94",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-21T01:00:00Z",
+            "home_points": 117,
+            "away_points": 100,
             "track_on_court": true,
             "sr_id": "sr:match:43065681",
             "reference": "0022300221",
@@ -11738,9 +11746,11 @@
         },
         {
             "id": "7bb662d2-6aa5-45c3-b1b0-114f34d409a6",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-21T01:00:00Z",
+            "home_points": 99,
+            "away_points": 124,
             "track_on_court": true,
             "sr_id": "sr:match:43065687",
             "reference": "0022300223",
@@ -11794,9 +11804,11 @@
         },
         {
             "id": "93e2d591-f00f-48ba-b36f-16ec57f6d9a3",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-21T01:00:00Z",
+            "home_points": 129,
+            "away_points": 93,
             "track_on_court": true,
             "sr_id": "sr:match:43065683",
             "reference": "0022300222",
@@ -11851,9 +11863,11 @@
         },
         {
             "id": "b261c91d-317f-413d-811d-c5c027cb4617",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-21T01:00:00Z",
+            "home_points": 100,
+            "away_points": 118,
             "track_on_court": true,
             "sr_id": "sr:match:43065679",
             "reference": "0022300220",
@@ -11908,9 +11922,11 @@
         },
         {
             "id": "b72b6fb0-cb28-4437-80d4-21d6f009b165",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-21T03:00:00Z",
+            "home_points": 121,
+            "away_points": 116,
             "track_on_court": true,
             "sr_id": "sr:match:43065689",
             "reference": "0022300224",
@@ -11965,9 +11981,11 @@
         },
         {
             "id": "75c9da4d-62d3-4869-a8c4-6eb2b3e717d1",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-22T00:00:00Z",
+            "home_points": 126,
+            "away_points": 107,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029633",
@@ -12022,9 +12040,11 @@
         },
         {
             "id": "a01da403-5e59-410c-b19f-3b740496d043",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-22T00:30:00Z",
+            "home_points": 119,
+            "away_points": 122,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029637",
@@ -12079,9 +12099,11 @@
         },
         {
             "id": "e6c15121-ea18-4cee-91cf-273c9441323b",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-22T00:30:00Z",
+            "home_points": 152,
+            "away_points": 157,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029635",
@@ -12137,9 +12159,11 @@
         },
         {
             "id": "7988161e-d13f-443c-b700-d099110efcd3",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-22T02:00:00Z",
+            "home_points": 120,
+            "away_points": 107,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029639",
@@ -12194,9 +12218,11 @@
         },
         {
             "id": "23968d39-06f3-44dc-87c4-ea1d32cf935d",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-22T03:00:00Z",
+            "home_points": 131,
+            "away_points": 99,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029641",
@@ -12252,9 +12278,11 @@
         },
         {
             "id": "620d24d5-efc5-4731-83f3-a4bea3f415ab",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T00:00:00Z",
+            "home_points": 117,
+            "away_points": 114,
             "track_on_court": true,
             "sr_id": "sr:match:43065691",
             "reference": "0022300225",
@@ -12309,9 +12337,11 @@
         },
         {
             "id": "c2cf30a3-2195-43aa-9fc7-b778c1054040",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T00:00:00Z",
+            "home_points": 124,
+            "away_points": 119,
             "track_on_court": true,
             "sr_id": "sr:match:43065693",
             "reference": "0022300226",
@@ -12366,9 +12396,11 @@
         },
         {
             "id": "060f62a8-1a7b-4486-9654-b621049b8447",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T00:30:00Z",
+            "home_points": 119,
+            "away_points": 116,
             "track_on_court": true,
             "sr_id": "sr:match:43065697",
             "reference": "0022300228",
@@ -12429,9 +12461,11 @@
         },
         {
             "id": "1f634790-4515-4177-bed5-652c58b2c97f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T00:30:00Z",
+            "home_points": 96,
+            "away_points": 129,
             "track_on_court": true,
             "sr_id": "sr:match:43065699",
             "reference": "0022300229",
@@ -12486,9 +12520,11 @@
         },
         {
             "id": "79e75a08-9c3a-4b67-b0dd-26392abc622a",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T00:30:00Z",
+            "home_points": 131,
+            "away_points": 132,
             "track_on_court": true,
             "sr_id": "sr:match:43065701",
             "reference": "0022300230",
@@ -12542,9 +12578,11 @@
         },
         {
             "id": "81337a49-e1a8-48f0-a1e1-01d9fb0d0fe9",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T00:30:00Z",
+            "home_points": 147,
+            "away_points": 145,
             "track_on_court": true,
             "sr_id": "sr:match:43065695",
             "reference": "0022300227",
@@ -12599,9 +12637,11 @@
         },
         {
             "id": "4a6a47c7-0e0d-45e0-a04f-ebb89229a25a",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T01:00:00Z",
+            "home_points": 111,
+            "away_points": 91,
             "track_on_court": true,
             "sr_id": "sr:match:43065703",
             "reference": "0022300231",
@@ -12656,9 +12696,11 @@
         },
         {
             "id": "54940281-2616-4716-b28f-881da08c1f42",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T01:00:00Z",
+            "home_points": 112,
+            "away_points": 99,
             "track_on_court": true,
             "sr_id": "sr:match:43065705",
             "reference": "0022300232",
@@ -12712,9 +12754,11 @@
         },
         {
             "id": "77dd3a91-26ff-4887-99fb-59b54b93c8e1",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T01:00:00Z",
+            "home_points": 117,
+            "away_points": 112,
             "track_on_court": true,
             "sr_id": "sr:match:43065707",
             "reference": "0022300233",
@@ -12769,9 +12813,11 @@
         },
         {
             "id": "888eccd1-475e-460c-9846-963ec19a421c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T01:00:00Z",
+            "home_points": 102,
+            "away_points": 109,
             "track_on_court": true,
             "sr_id": "sr:match:43065711",
             "reference": "0022300235",
@@ -12826,9 +12872,11 @@
         },
         {
             "id": "db5662d6-09b7-48b5-a8bc-8b29f68dc0aa",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T01:00:00Z",
+            "home_points": 116,
+            "away_points": 102,
             "track_on_court": true,
             "sr_id": "sr:match:43065709",
             "reference": "0022300234",
@@ -12883,9 +12931,11 @@
         },
         {
             "id": "6b9b7386-9353-4f29-8d3e-543579a284eb",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T03:00:00Z",
+            "home_points": 121,
+            "away_points": 105,
             "track_on_court": true,
             "sr_id": "sr:match:43065715",
             "reference": "0022300237",
@@ -12939,9 +12989,11 @@
         },
         {
             "id": "6d242c69-2f1b-4370-97cd-f529a12b2c6e",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T03:00:00Z",
+            "home_points": 123,
+            "away_points": 115,
             "track_on_court": true,
             "sr_id": "sr:match:43065713",
             "reference": "0022300236",
@@ -13001,9 +13053,11 @@
         },
         {
             "id": "694a0f35-f4e8-4be0-9e15-d7d102441b50",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-23T03:30:00Z",
+            "home_points": 101,
+            "away_points": 104,
             "track_on_court": true,
             "sr_id": "sr:match:43065717",
             "reference": "0022300238",
@@ -13058,9 +13112,11 @@
         },
         {
             "id": "36365712-290d-45bb-8985-3688e11a8fd5",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-24T19:30:00Z",
+            "home_points": 113,
+            "away_points": 96,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029643",
@@ -13122,9 +13178,11 @@
         },
         {
             "id": "e3d4575e-b5ce-46ea-bb71-4d5e9d41bd3d",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-24T22:00:00Z",
+            "home_points": 89,
+            "away_points": 110,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029645",
@@ -13185,9 +13243,11 @@
         },
         {
             "id": "0827e9f7-abdd-40c1-b55f-6c2cf6df542d",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-25T00:30:00Z",
+            "home_points": 100,
+            "away_points": 98,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029647",
@@ -13249,9 +13309,11 @@
         },
         {
             "id": "ca81cace-5df7-4e81-9d6d-b325bc17b550",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-25T00:30:00Z",
+            "home_points": 121,
+            "away_points": 108,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029649",
@@ -13306,9 +13368,11 @@
         },
         {
             "id": "0e372643-e6d3-43cb-ab1a-eb952ed98da7",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-25T01:00:00Z",
+            "home_points": 136,
+            "away_points": 113,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029651",
@@ -13364,9 +13428,11 @@
         },
         {
             "id": "1c28b3d6-6763-4d50-8a1b-040136d63ce1",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-25T01:00:00Z",
+            "home_points": 111,
+            "away_points": 124,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029659",
@@ -13422,9 +13488,11 @@
         },
         {
             "id": "1cf6bd55-581f-4365-ad65-6f8bd405c7b7",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-25T01:00:00Z",
+            "home_points": 131,
+            "away_points": 128,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029657",
@@ -13480,9 +13548,11 @@
         },
         {
             "id": "96723b90-b4df-4d4f-b9c8-3bdd2b98d4cc",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-25T01:00:00Z",
+            "home_points": 105,
+            "away_points": 86,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029655",
@@ -13538,9 +13608,11 @@
         },
         {
             "id": "8e7ee4a1-9390-46ca-870f-c8db24a1bdd0",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-25T03:00:00Z",
+            "home_points": 118,
+            "away_points": 112,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029661",
@@ -13601,9 +13673,11 @@
         },
         {
             "id": "0f6cc7a3-f472-4750-b86e-7370d2b750ad",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-25T03:30:00Z",
+            "home_points": 106,
+            "away_points": 116,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029663",
@@ -13659,9 +13733,11 @@
         },
         {
             "id": "fca9c1d5-2294-4f35-a45a-51e431f085a5",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-25T22:00:00Z",
+            "home_points": 123,
+            "away_points": 127,
             "track_on_court": true,
             "sr_id": "sr:match:43065719",
             "reference": "0022300239",
@@ -13715,9 +13791,11 @@
         },
         {
             "id": "21c1bec0-f031-47b8-b55a-2b9e7451930c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-25T23:00:00Z",
+            "home_points": 112,
+            "away_points": 97,
             "track_on_court": true,
             "sr_id": "sr:match:43065721",
             "reference": "0022300240",
@@ -13772,9 +13850,11 @@
         },
         {
             "id": "d2c4d1b8-47d2-45db-9930-d5f49feb4143",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-26T00:00:00Z",
+            "home_points": 108,
+            "away_points": 136,
             "track_on_court": true,
             "sr_id": "sr:match:43065723",
             "reference": "0022300241",
@@ -13829,9 +13909,11 @@
         },
         {
             "id": "6e1e985b-b5f6-413e-9ab3-74754fdcc813",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-26T00:30:00Z",
+            "home_points": 115,
+            "away_points": 121,
             "track_on_court": true,
             "sr_id": "sr:match:43065725",
             "reference": "0022300242",
@@ -13886,9 +13968,11 @@
         },
         {
             "id": "10f57b64-c06f-47d8-a00e-4567654bec00",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-26T02:30:00Z",
+            "home_points": 105,
+            "away_points": 100,
             "track_on_court": true,
             "sr_id": "sr:match:43065727",
             "reference": "0022300243",
@@ -13942,9 +14026,11 @@
         },
         {
             "id": "bc834487-2ccc-458d-a017-b16ceddcf117",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-26T03:30:00Z",
+            "home_points": 107,
+            "away_points": 88,
             "track_on_court": true,
             "sr_id": "sr:match:43065729",
             "reference": "0022300244",
@@ -14004,9 +14090,11 @@
         },
         {
             "id": "5b68fc60-aa98-4893-9012-f7f10d3b7930",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-26T20:30:00Z",
+            "home_points": 108,
+            "away_points": 102,
             "track_on_court": true,
             "sr_id": "sr:match:43065731",
             "reference": "0022300245",
@@ -14067,9 +14155,11 @@
         },
         {
             "id": "26e607d6-68f1-42f3-a60b-54ac1f87eef6",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-26T23:00:00Z",
+            "home_points": 97,
+            "away_points": 119,
             "track_on_court": true,
             "sr_id": "sr:match:43065739",
             "reference": "0022300249",
@@ -14124,9 +14214,11 @@
         },
         {
             "id": "7ec7309c-0dfe-44bb-adb9-7b269a83d723",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-26T23:00:00Z",
+            "home_points": 130,
+            "away_points": 117,
             "track_on_court": true,
             "sr_id": "sr:match:43065737",
             "reference": "0022300248",
@@ -14181,9 +14273,11 @@
         },
         {
             "id": "db54696b-d854-438d-aeca-4bef00662cc1",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-26T23:00:00Z",
+            "home_points": 113,
+            "away_points": 116,
             "track_on_court": true,
             "sr_id": "sr:match:43065735",
             "reference": "0022300247",
@@ -14237,9 +14331,11 @@
         },
         {
             "id": "fd7df84b-9002-44dd-a3a5-ce363e9c9b4c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-26T23:00:00Z",
+            "home_points": 113,
+            "away_points": 103,
             "track_on_court": true,
             "sr_id": "sr:match:43065733",
             "reference": "0022300246",
@@ -14294,9 +14390,11 @@
         },
         {
             "id": "13698313-b05b-4a2b-9f29-e0f60e7aa984",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-27T00:30:00Z",
+            "home_points": 105,
+            "away_points": 102,
             "track_on_court": true,
             "sr_id": "sr:match:43065743",
             "reference": "0022300251",
@@ -14350,9 +14448,11 @@
         },
         {
             "id": "2ede4d15-1fe7-4ead-8ff4-b4d3a576ce25",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-27T00:30:00Z",
+            "home_points": 118,
+            "away_points": 109,
             "track_on_court": true,
             "sr_id": "sr:match:43065741",
             "reference": "0022300250",
@@ -14407,9 +14507,11 @@
         },
         {
             "id": "b04355f9-9a01-457f-bda9-138a68559641",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-27T01:00:00Z",
+            "home_points": 132,
+            "away_points": 120,
             "track_on_court": true,
             "sr_id": "sr:match:43065745",
             "reference": "0022300252",
@@ -14464,9 +14566,11 @@
         },
         {
             "id": "68913f97-e1fd-4911-9b3f-c45d586b6be0",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-28T00:00:00Z",
+            "home_points": 107,
+            "away_points": 126,
             "track_on_court": true,
             "sr_id": "sr:match:43065747",
             "reference": "0022300253",
@@ -14521,9 +14625,11 @@
         },
         {
             "id": "c5d4eff2-c2c5-4bbc-81b3-265d8d96084a",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-28T00:00:00Z",
+            "home_points": 138,
+            "away_points": 94,
             "track_on_court": true,
             "sr_id": "sr:match:43065751",
             "reference": "0022300255",
@@ -14583,9 +14689,11 @@
         },
         {
             "id": "c6d13fd3-0bd6-4b3b-8719-256e7130fb3b",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-28T00:00:00Z",
+            "home_points": 110,
+            "away_points": 114,
             "track_on_court": true,
             "sr_id": "sr:match:43065749",
             "reference": "0022300254",
@@ -14646,9 +14754,11 @@
         },
         {
             "id": "3494ae87-205b-47d5-b409-2ed6fa753e2b",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-28T02:00:00Z",
+            "home_points": 114,
+            "away_points": 112,
             "track_on_court": true,
             "sr_id": "sr:match:43065753",
             "reference": "0022300256",
@@ -14702,9 +14812,11 @@
         },
         {
             "id": "e58284e1-4a8c-4961-9804-94bd4aa80006",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-28T03:30:00Z",
+            "home_points": 104,
+            "away_points": 113,
             "track_on_court": true,
             "sr_id": "sr:match:43065755",
             "reference": "0022300257",
@@ -14765,9 +14877,11 @@
         },
         {
             "id": "3cc85ed5-06a7-4c40-a4c5-cd736e249ae1",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-29T00:30:00Z",
+            "home_points": 115,
+            "away_points": 103,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029667",
@@ -14822,9 +14936,11 @@
         },
         {
             "id": "5dd99b14-4f5d-40bb-a94f-381dfda0d2f0",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-29T00:30:00Z",
+            "home_points": 115,
+            "away_points": 91,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029673",
@@ -14880,9 +14996,11 @@
         },
         {
             "id": "ac89d330-c8a7-4fb6-a0da-8d5f124e6acc",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-29T00:30:00Z",
+            "home_points": 128,
+            "away_points": 105,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029669",
@@ -14938,9 +15056,11 @@
         },
         {
             "id": "ba1daebb-d48c-45ac-acae-3b4fdf54f3f0",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-29T00:30:00Z",
+            "home_points": 124,
+            "away_points": 97,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029665",
@@ -14996,9 +15116,11 @@
         },
         {
             "id": "e0baf6dc-c8f9-4c34-a1b2-80520284a007",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-29T00:30:00Z",
+            "home_points": 124,
+            "away_points": 131,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029671",
@@ -15054,9 +15176,11 @@
         },
         {
             "id": "931a9ccb-459f-4dee-8781-474325145c1e",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-29T01:00:00Z",
+            "home_points": 106,
+            "away_points": 103,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029675",
@@ -15112,9 +15236,11 @@
         },
         {
             "id": "0bd429e8-744f-467b-9bcd-efa7bbae1902",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-29T01:30:00Z",
+            "home_points": 121,
+            "away_points": 115,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029677",
@@ -15170,9 +15296,11 @@
         },
         {
             "id": "32e73d7c-af28-4ec9-a3cd-bf03082aa2c6",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-29T03:00:00Z",
+            "home_points": 124,
+            "away_points": 123,
             "inseason_tournament": true,
             "track_on_court": true,
             "sr_id": "sr:match:43029679",
@@ -15222,9 +15350,11 @@
         },
         {
             "id": "03f1cfcc-cbda-4530-9fe9-fd38b3d4320f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-30T00:00:00Z",
+            "home_points": 107,
+            "away_points": 133,
             "track_on_court": true,
             "sr_id": "sr:match:43065757",
             "reference": "0022300258",
@@ -15285,9 +15415,11 @@
         },
         {
             "id": "3ff6f375-d2b7-470c-b357-e84007b99899",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-30T00:00:00Z",
+            "home_points": 139,
+            "away_points": 120,
             "track_on_court": true,
             "sr_id": "sr:match:43065759",
             "reference": "0022300259",
@@ -15342,9 +15474,11 @@
         },
         {
             "id": "91891051-a6f5-4d0d-9308-b40c9a3cd962",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-30T00:30:00Z",
+            "home_points": 112,
+            "away_points": 105,
             "track_on_court": true,
             "sr_id": "sr:match:43065761",
             "reference": "0022300260",
@@ -15397,9 +15531,11 @@
         },
         {
             "id": "4319d914-2913-4be5-b9b7-b0ce450c178c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-30T01:00:00Z",
+            "home_points": 105,
+            "away_points": 91,
             "track_on_court": true,
             "sr_id": "sr:match:43065763",
             "reference": "0022300261",
@@ -15453,9 +15589,11 @@
         },
         {
             "id": "c7d010bb-c8b1-49e4-b824-cf0e70413048",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-30T01:00:00Z",
+            "home_points": 124,
+            "away_points": 114,
             "track_on_court": true,
             "sr_id": "sr:match:43065765",
             "reference": "0022300262",
@@ -15509,9 +15647,11 @@
         },
         {
             "id": "22bb47e6-6ff1-45c8-a62e-6b335ed8849a",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-30T02:00:00Z",
+            "home_points": 134,
+            "away_points": 124,
             "track_on_court": true,
             "sr_id": "sr:match:43065767",
             "reference": "0022300263",
@@ -15566,9 +15706,11 @@
         },
         {
             "id": "8f8a2371-518e-4422-96e1-d4887bd9b351",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-30T03:00:00Z",
+            "home_points": 117,
+            "away_points": 131,
             "track_on_court": true,
             "sr_id": "sr:match:43065769",
             "reference": "0022300264",
@@ -15628,9 +15770,11 @@
         },
         {
             "id": "353054cf-9788-424a-a502-0af2fae49c6f",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T00:00:00Z",
+            "home_points": 95,
+            "away_points": 103,
             "track_on_court": true,
             "sr_id": "sr:match:43065771",
             "reference": "0022300265",
@@ -15685,9 +15829,11 @@
         },
         {
             "id": "32349b99-0f3b-4ddd-84c6-e377be541f26",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T00:30:00Z",
+            "home_points": 128,
+            "away_points": 129,
             "track_on_court": true,
             "sr_id": "sr:match:43065773",
             "reference": "0022300266",
@@ -15742,9 +15888,11 @@
         },
         {
             "id": "aa810305-5681-4d1f-a337-b0fde103d41c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T00:30:00Z",
+            "home_points": 118,
+            "away_points": 112,
             "track_on_court": true,
             "sr_id": "sr:match:43065777",
             "reference": "0022300268",
@@ -15799,9 +15947,11 @@
         },
         {
             "id": "ac567757-dc3a-40e6-8bdc-a7c0bcd3b9a1",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T00:30:00Z",
+            "home_points": 142,
+            "away_points": 132,
             "track_on_court": true,
             "sr_id": "sr:match:43065775",
             "reference": "0022300267",
@@ -15862,9 +16012,11 @@
         },
         {
             "id": "0a49b8b0-53dc-4e16-ab6c-d4c1938ed65b",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T01:00:00Z",
+            "home_points": 133,
+            "away_points": 110,
             "track_on_court": true,
             "sr_id": "sr:match:43065783",
             "reference": "0022300271",
@@ -15919,9 +16071,11 @@
         },
         {
             "id": "8d7a4705-8b62-4973-abef-9f6e9c0f2f6d",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T01:00:00Z",
+            "home_points": 135,
+            "away_points": 137,
             "track_on_court": true,
             "sr_id": "sr:match:43065785",
             "reference": "0022300272",
@@ -15976,9 +16130,11 @@
         },
         {
             "id": "a036e710-ce27-45b2-9d0c-ab1cb4222c13",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T01:00:00Z",
+            "home_points": 120,
+            "away_points": 113,
             "track_on_court": true,
             "sr_id": "sr:match:43065779",
             "reference": "0022300269",
@@ -16033,9 +16189,11 @@
         },
         {
             "id": "e1eaff42-aafa-48be-a356-3dbb384cc439",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T01:00:00Z",
+            "home_points": 101,
+            "away_points": 90,
             "track_on_court": true,
             "sr_id": "sr:match:43065781",
             "reference": "0022300270",
@@ -16089,9 +16247,11 @@
         },
         {
             "id": "0bb69ad7-a1ec-4079-b9b6-2a358b3b3c21",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T03:00:00Z",
+            "home_points": 120,
+            "away_points": 114,
             "track_on_court": true,
             "sr_id": "sr:match:43065787",
             "reference": "0022300273",
@@ -16146,9 +16306,11 @@
         },
         {
             "id": "9c0bd4f6-de1d-4ee0-abff-cb827e513bd9",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-02T00:00:00Z",
+            "home_points": 130,
+            "away_points": 125,
             "track_on_court": true,
             "sr_id": "sr:match:43065789",
             "reference": "0022300274",
@@ -16203,9 +16365,11 @@
         },
         {
             "id": "3ff00f1a-4e8b-493d-a9f2-fccd32b297f5",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-02T00:30:00Z",
+            "home_points": 106,
+            "away_points": 119,
             "track_on_court": true,
             "sr_id": "sr:match:43065793",
             "reference": "0022300276",
@@ -16259,9 +16423,11 @@
         },
         {
             "id": "55c2e153-e5a0-4d13-9294-e5a24bca9665",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-02T00:30:00Z",
+            "home_points": 94,
+            "away_points": 108,
             "track_on_court": true,
             "sr_id": "sr:match:43065795",
             "reference": "0022300277",
@@ -16286,12 +16452,6 @@
                 }
             },
             "broadcasts": [
-                {
-                    "network": "ESPN",
-                    "type": "TV",
-                    "locale": "National",
-                    "channel": "206"
-                },
                 {
                     "network": "BSSW",
                     "type": "TV",
@@ -16322,9 +16482,11 @@
         },
         {
             "id": "8b3ec627-549c-4ca3-94dc-8eb0cecac323",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-02T00:30:00Z",
+            "home_points": 125,
+            "away_points": 119,
             "track_on_court": true,
             "sr_id": "sr:match:43065791",
             "reference": "0022300275",
@@ -16350,15 +16512,19 @@
             },
             "broadcasts": [
                 {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                },
+                {
                     "network": "NBCS-BOS",
                     "type": "TV",
-                    "locale": "Home",
                     "channel": "630"
                 },
                 {
                     "network": "NBCS-PH",
-                    "type": "TV",
-                    "locale": "Away"
+                    "type": "TV"
                 }
             ],
             "home": {
@@ -16378,9 +16544,11 @@
         },
         {
             "id": "b6e4e41d-dd0e-4bcc-b716-3353b0461933",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-02T01:00:00Z",
+            "home_points": 121,
+            "away_points": 106,
             "track_on_court": true,
             "sr_id": "sr:match:43065797",
             "reference": "0022300278",
@@ -16435,9 +16603,11 @@
         },
         {
             "id": "fc6a6efa-1112-4658-a605-2d95c051ead1",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-02T03:00:00Z",
+            "home_points": 111,
+            "away_points": 119,
             "track_on_court": true,
             "sr_id": "sr:match:43065799",
             "reference": "0022300279",
@@ -17181,6 +17351,1539 @@
                 "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
                 "sr_id": "sr:team:3412",
                 "reference": "1610612745"
+            }
+        },
+        {
+            "id": "32cdc8d8-3176-4026-8fd2-72f8103910c0",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-05T00:30:00Z",
+            "inseason_tournament": true,
+            "track_on_court": true,
+            "sr_id": "sr:match:45785006",
+            "reference": "0022301202",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "24bb478e-eb31-5f8a-8c8d-07f513169ec1",
+                "name": "Gainbridge Fieldhouse",
+                "capacity": 20000,
+                "address": "125 S. Pennsylvania Street",
+                "city": "Indianapolis",
+                "state": "IN",
+                "zip": "46204",
+                "country": "USA",
+                "sr_id": "sr:venue:6924",
+                "location": {
+                    "lat": "39.763975",
+                    "lng": "-86.15542"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "TNT",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "245"
+                },
+                {
+                    "network": "BSIN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "671-4"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
+                }
+            ],
+            "home": {
+                "name": "Indiana Pacers",
+                "alias": "IND",
+                "id": "583ec7cd-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3419",
+                "reference": "1610612754"
+            },
+            "away": {
+                "name": "Boston Celtics",
+                "alias": "BOS",
+                "id": "583eccfa-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3422",
+                "reference": "1610612738"
+            }
+        },
+        {
+            "id": "00aca98b-9680-4900-8dfd-277e7767b696",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-05T03:00:00Z",
+            "inseason_tournament": true,
+            "track_on_court": true,
+            "sr_id": "sr:match:45785094",
+            "reference": "0022301204",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "2e687b9a-c7a7-487c-85b4-43479abc8458",
+                "name": "Golden 1 Center",
+                "capacity": 17608,
+                "address": "500 David J. Stern Walkway",
+                "city": "Sacramento",
+                "state": "CA",
+                "zip": "95814",
+                "country": "USA",
+                "sr_id": "sr:venue:6942",
+                "location": {
+                    "lat": "38.580361",
+                    "lng": "-121.499611"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "TNT",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "245"
+                },
+                {
+                    "network": "NBCS-CA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "698"
+                },
+                {
+                    "network": "BSNO",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676-4"
+                }
+            ],
+            "home": {
+                "name": "Sacramento Kings",
+                "alias": "SAC",
+                "id": "583ed0ac-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3413",
+                "reference": "1610612758"
+            },
+            "away": {
+                "name": "New Orleans Pelicans",
+                "alias": "NOP",
+                "id": "583ecc9a-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:5539",
+                "reference": "1610612740"
+            }
+        },
+        {
+            "id": "aa676591-a0e3-4f8d-8770-25b199a792b6",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-06T00:30:00Z",
+            "inseason_tournament": true,
+            "track_on_court": true,
+            "sr_id": "sr:match:45785090",
+            "reference": "0022301201",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "50b75324-b994-46af-a0a7-28db7bea67d0",
+                "name": "Fiserv Forum",
+                "capacity": 17500,
+                "address": "1111 Vel R Phillips Avenue",
+                "city": "Milwaukee",
+                "state": "WI",
+                "zip": "53203",
+                "country": "USA",
+                "sr_id": "sr:venue:31495",
+                "location": {
+                    "lat": "43.045028",
+                    "lng": "-87.918167"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "TNT",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "245"
+                },
+                {
+                    "network": "BSWI",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "669"
+                },
+                {
+                    "network": "MSG",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "634"
+                }
+            ],
+            "home": {
+                "name": "Milwaukee Bucks",
+                "alias": "MIL",
+                "id": "583ecefd-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3410",
+                "reference": "1610612749"
+            },
+            "away": {
+                "name": "New York Knicks",
+                "alias": "NYK",
+                "id": "583ec70e-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3421",
+                "reference": "1610612752"
+            }
+        },
+        {
+            "id": "43434e91-e9ed-45b1-8c7e-eaac6d884438",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-06T03:00:00Z",
+            "inseason_tournament": true,
+            "track_on_court": true,
+            "sr_id": "sr:match:45785092",
+            "reference": "0022301203",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Arizona"
+            },
+            "venue": {
+                "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+                "name": "Crypto.com Arena",
+                "capacity": 18997,
+                "address": "1111 S. Figueroa Street",
+                "city": "Los Angeles",
+                "state": "CA",
+                "zip": "90015",
+                "country": "USA",
+                "sr_id": "sr:venue:6008",
+                "location": {
+                    "lat": "34.043059",
+                    "lng": "-118.267223"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "TNT",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "245"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "691"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
+            "home": {
+                "name": "Los Angeles Lakers",
+                "alias": "LAL",
+                "id": "583ecae2-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3427",
+                "reference": "1610612747"
+            },
+            "away": {
+                "name": "Phoenix Suns",
+                "alias": "PHX",
+                "id": "583ecfa8-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3416",
+                "reference": "1610612756"
+            }
+        },
+        {
+            "id": "37751864-a3fd-4a76-9353-4138a7d1405d",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T00:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785603",
+            "reference": "0022301208",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "f62d5b49-d646-56e9-ba60-a875a00830f8",
+                "name": "Capital One Arena",
+                "capacity": 20356,
+                "address": "601 F Street NW",
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20004",
+                "country": "USA",
+                "sr_id": "sr:venue:6016",
+                "location": {
+                    "lat": "38.898056",
+                    "lng": "-77.020833"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                },
+                {
+                    "network": "NBCS-PH",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
+            "home": {
+                "name": "Washington Wizards",
+                "alias": "WAS",
+                "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3431",
+                "reference": "1610612764"
+            },
+            "away": {
+                "name": "Philadelphia 76ers",
+                "alias": "PHI",
+                "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3420",
+                "reference": "1610612755"
+            }
+        },
+        {
+            "id": "83602d1a-63f1-406f-b947-3303f55ce4c2",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T00:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785599",
+            "reference": "0022301206",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "5a9ddefc-2267-4fd1-8d6e-0f82163ce8bd",
+                "name": "Little Caesars Arena",
+                "capacity": 20491,
+                "address": "2645 Woodward Avenue",
+                "city": "Detroit",
+                "state": "MI",
+                "zip": "48201",
+                "country": "USA",
+                "sr_id": "sr:venue:21782",
+                "location": {
+                    "lat": "42.341172",
+                    "lng": "-83.054911"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "BSDET",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "663"
+                },
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "649"
+                }
+            ],
+            "home": {
+                "name": "Detroit Pistons",
+                "alias": "DET",
+                "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3424",
+                "reference": "1610612765"
+            },
+            "away": {
+                "name": "Memphis Grizzlies",
+                "alias": "MEM",
+                "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3415",
+                "reference": "1610612763"
+            }
+        },
+        {
+            "id": "e99f12f2-4ca3-4a4b-9682-b393fcaa5691",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T00:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785605",
+            "reference": "0022301205",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+                "name": "Rocket Mortgage Fieldhouse",
+                "capacity": 19432,
+                "address": "1 Center Court",
+                "city": "Cleveland",
+                "state": "OH",
+                "zip": "44115",
+                "country": "USA",
+                "sr_id": "sr:venue:6132",
+                "location": {
+                    "lat": "41.496565",
+                    "lng": "-81.688265"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "BSOH",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "660"
+                },
+                {
+                    "network": "BSFL",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "654"
+                }
+            ],
+            "home": {
+                "name": "Cleveland Cavaliers",
+                "alias": "CLE",
+                "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3432",
+                "reference": "1610612739"
+            },
+            "away": {
+                "name": "Orlando Magic",
+                "alias": "ORL",
+                "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3437",
+                "reference": "1610612753"
+            }
+        },
+        {
+            "id": "443d8427-44d4-4fdf-b4f6-ba5a5aa4dd63",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T00:30:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785607",
+            "reference": "0022301209",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "fd21f639-8a47-51ac-a5dd-590629d445cf",
+                "name": "State Farm Arena",
+                "capacity": 18118,
+                "address": "One Philips Drive",
+                "city": "Atlanta",
+                "state": "GA",
+                "zip": "30303",
+                "country": "USA",
+                "sr_id": "sr:venue:6916",
+                "location": {
+                    "lat": "33.757162",
+                    "lng": "-84.396352"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "649"
+                },
+                {
+                    "network": "YES",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "631"
+                }
+            ],
+            "home": {
+                "name": "Atlanta Hawks",
+                "alias": "ATL",
+                "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3423",
+                "reference": "1610612737"
+            },
+            "away": {
+                "name": "Brooklyn Nets",
+                "alias": "BKN",
+                "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3436",
+                "reference": "1610612751"
+            }
+        },
+        {
+            "id": "9303b3e4-751c-4a36-9524-6a0922c611b8",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T00:30:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785609",
+            "reference": "0022301210",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "7aed802e-3562-5b73-af1b-3859529f9b95",
+                "name": "Target Center",
+                "capacity": 19356,
+                "address": "600 First Avenue North",
+                "city": "Minneapolis",
+                "state": "MN",
+                "zip": "55403",
+                "country": "USA",
+                "sr_id": "sr:venue:6930",
+                "location": {
+                    "lat": "44.979444",
+                    "lng": "-93.276111"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                },
+                {
+                    "network": "BSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                },
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676"
+                }
+            ],
+            "home": {
+                "name": "Minnesota Timberwolves",
+                "alias": "MIN",
+                "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3426",
+                "reference": "1610612750"
+            },
+            "away": {
+                "name": "San Antonio Spurs",
+                "alias": "SAS",
+                "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3429",
+                "reference": "1610612759"
+            }
+        },
+        {
+            "id": "cd8a57fd-ca07-49d0-bf0f-fa6fccb4056f",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T00:30:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785601",
+            "reference": "0022301207",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "62cc9661-7b13-56e7-bf4a-bba7ad7be8da",
+                "name": "Scotiabank Arena",
+                "capacity": 19800,
+                "address": "40 Bay Street",
+                "city": "Toronto",
+                "state": "ON",
+                "zip": "M5J 2X2",
+                "country": "CAN",
+                "sr_id": "sr:venue:6030",
+                "location": {
+                    "lat": "43.643333",
+                    "lng": "-79.379167"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "International"
+                },
+                {
+                    "network": "BSSUN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "653"
+                }
+            ],
+            "home": {
+                "name": "Toronto Raptors",
+                "alias": "TOR",
+                "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3433",
+                "reference": "1610612761"
+            },
+            "away": {
+                "name": "Miami Heat",
+                "alias": "MIA",
+                "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3435",
+                "reference": "1610612748"
+            }
+        },
+        {
+            "id": "26cf58e6-4b2b-4553-b517-5d3e77919a2b",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T01:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785611",
+            "reference": "0022301211",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "38911649-acfd-551a-949b-68f0fcaa44e7",
+                "name": "United Center",
+                "capacity": 20917,
+                "address": "1901 W Madison Street",
+                "city": "Chicago",
+                "state": "IL",
+                "zip": "60612",
+                "country": "USA",
+                "sr_id": "sr:venue:5964",
+                "location": {
+                    "lat": "41.880675",
+                    "lng": "-87.674091"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "NBCS-CHI",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "665"
+                },
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "649"
+                }
+            ],
+            "home": {
+                "name": "Chicago Bulls",
+                "alias": "CHI",
+                "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3409",
+                "reference": "1610612741"
+            },
+            "away": {
+                "name": "Charlotte Hornets",
+                "alias": "CHA",
+                "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3430",
+                "reference": "1610612766"
+            }
+        },
+        {
+            "id": "54cc11ff-867c-4f50-99aa-2e68b0e89aa5",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T01:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785613",
+            "reference": "0022301212",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "5b239206-57ce-50aa-baaa-627f3349dfdc",
+                "name": "Toyota Center",
+                "capacity": 18500,
+                "address": "1510 Polk Street",
+                "city": "Houston",
+                "state": "TX",
+                "zip": "77002",
+                "country": "USA",
+                "sr_id": "sr:venue:6134",
+                "location": {
+                    "lat": "29.750751",
+                    "lng": "-95.362049"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "Space City Home Network",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "674"
+                },
+                {
+                    "network": "BSOK",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "675"
+                }
+            ],
+            "home": {
+                "name": "Houston Rockets",
+                "alias": "HOU",
+                "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3412",
+                "reference": "1610612745"
+            },
+            "away": {
+                "name": "Oklahoma City Thunder",
+                "alias": "OKC",
+                "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3418",
+                "reference": "1610612760"
+            }
+        },
+        {
+            "id": "6f26ca4a-b30b-4cf6-8efc-3ccf185a3752",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T01:30:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785615",
+            "reference": "0022301213",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Mountain"
+            },
+            "venue": {
+                "id": "401ba62f-19b5-5bfc-84d6-021772943311",
+                "name": "American Airlines Center",
+                "capacity": 19200,
+                "address": "2500 Victory Avenue",
+                "city": "Dallas",
+                "state": "TX",
+                "zip": "75219",
+                "country": "USA",
+                "sr_id": "sr:venue:5988",
+                "location": {
+                    "lat": "32.79087",
+                    "lng": "-96.810338"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676"
+                },
+                {
+                    "network": "KJZZ",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
+            "home": {
+                "name": "Dallas Mavericks",
+                "alias": "DAL",
+                "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3411",
+                "reference": "1610612742"
+            },
+            "away": {
+                "name": "Utah Jazz",
+                "alias": "UTA",
+                "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3434",
+                "reference": "1610612762"
+            }
+        },
+        {
+            "id": "97c320a7-7e01-4b1e-87f0-c15bcd9bf32c",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T03:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785619",
+            "reference": "0022301215",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Mountain"
+            },
+            "venue": {
+                "id": "792ec100-691e-5e16-8ef8-79b2b6ee38ba",
+                "name": "Crypto.com Arena",
+                "capacity": 18997,
+                "address": "1111 S. Figueroa Street",
+                "city": "Los Angeles",
+                "state": "CA",
+                "zip": "90015",
+                "country": "USA",
+                "sr_id": "sr:venue:6008",
+                "location": {
+                    "lat": "34.043059",
+                    "lng": "-118.267223"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                },
+                {
+                    "network": "BSSC",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "693"
+                },
+                {
+                    "network": "ALT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "681"
+                }
+            ],
+            "home": {
+                "name": "LA Clippers",
+                "alias": "LAC",
+                "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3425",
+                "reference": "1610612746"
+            },
+            "away": {
+                "name": "Denver Nuggets",
+                "alias": "DEN",
+                "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3417",
+                "reference": "1610612743"
+            }
+        },
+        {
+            "id": "e45d6277-d3ef-4e45-9ac6-411da8902c4a",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-07T03:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785617",
+            "reference": "0022301214",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "938016dc-9e1d-4abc-88f5-3a7d772332e6",
+                "name": "Chase Center",
+                "capacity": 18064,
+                "address": "1 Warriors Way",
+                "city": "San Francisco",
+                "state": "CA",
+                "zip": "94158",
+                "country": "USA",
+                "sr_id": "sr:venue:44446",
+                "location": {
+                    "lat": "37.7679",
+                    "lng": "-122.3873"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "NBCS-BA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "696"
+                },
+                {
+                    "network": "ROOT Sports NW",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "687"
+                },
+                {
+                    "network": "ROOT Sports NW+",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "687-1"
+                }
+            ],
+            "home": {
+                "name": "Golden State Warriors",
+                "alias": "GSW",
+                "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3428",
+                "reference": "1610612744"
+            },
+            "away": {
+                "name": "Portland Trail Blazers",
+                "alias": "POR",
+                "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3414",
+                "reference": "1610612757"
+            }
+        },
+        {
+            "id": "284c862e-6019-41a0-870b-5c50893aecd7",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T00:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785621",
+            "reference": "0022301216",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "a380f011-6e5d-5430-9f37-209e1e8a9b6f",
+                "name": "Spectrum Center",
+                "capacity": 19077,
+                "address": "330 E. Trade Street",
+                "city": "Charlotte",
+                "state": "NC",
+                "zip": "28202",
+                "country": "USA",
+                "sr_id": "sr:venue:6146",
+                "location": {
+                    "lat": "35.225148",
+                    "lng": "-80.839249"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "649"
+                },
+                {
+                    "network": "SportsNet",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
+            "home": {
+                "name": "Charlotte Hornets",
+                "alias": "CHA",
+                "id": "583ec97e-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3430",
+                "reference": "1610612766"
+            },
+            "away": {
+                "name": "Toronto Raptors",
+                "alias": "TOR",
+                "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3433",
+                "reference": "1610612761"
+            }
+        },
+        {
+            "id": "39614480-a075-48c0-b8ce-201075404c9e",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T00:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785625",
+            "reference": "0022301217",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "aecd8da6-0404-599c-a792-4b33fb084a2a",
+                "name": "Amway Center",
+                "capacity": 18846,
+                "address": "400 W. Church Street",
+                "city": "Orlando",
+                "state": "FL",
+                "zip": "32801",
+                "country": "USA",
+                "sr_id": "sr:venue:6936",
+                "location": {
+                    "lat": "28.539167",
+                    "lng": "-81.383611"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "BSFL",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "654"
+                },
+                {
+                    "network": "BSDET",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "663"
+                }
+            ],
+            "home": {
+                "name": "Orlando Magic",
+                "alias": "ORL",
+                "id": "583ed157-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3437",
+                "reference": "1610612753"
+            },
+            "away": {
+                "name": "Detroit Pistons",
+                "alias": "DET",
+                "id": "583ec928-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3424",
+                "reference": "1610612765"
+            }
+        },
+        {
+            "id": "d033be61-c142-478c-8767-3c940105bdb2",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T00:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785623",
+            "reference": "0022301218",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "b3dca541-859e-5301-bf90-4ec677a514a9",
+                "name": "Wells Fargo Center",
+                "capacity": 20478,
+                "address": "3601 S. Broad Street",
+                "city": "Philadelphia",
+                "state": "PA",
+                "zip": "19148",
+                "country": "USA",
+                "sr_id": "sr:venue:6068",
+                "location": {
+                    "lat": "39.9012",
+                    "lng": "-75.171995"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "NBCS-PH",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "649"
+                }
+            ],
+            "home": {
+                "name": "Philadelphia 76ers",
+                "alias": "PHI",
+                "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3420",
+                "reference": "1610612755"
+            },
+            "away": {
+                "name": "Atlanta Hawks",
+                "alias": "ATL",
+                "id": "583ecb8f-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3423",
+                "reference": "1610612737"
+            }
+        },
+        {
+            "id": "e3596683-0170-49ec-859a-7bf7f1f3df4e",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T00:30:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785627",
+            "reference": "0022301219",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "7a330bcd-ac0f-50ca-bc29-2460e5c476b3",
+                "name": "Barclays Center",
+                "capacity": 17732,
+                "address": "620 Atlantic Avenue",
+                "city": "Brooklyn",
+                "state": "NY",
+                "zip": "11217",
+                "country": "USA",
+                "sr_id": "sr:venue:36132",
+                "location": {
+                    "lat": "40.682957",
+                    "lng": "-73.975165"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "YES",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "631"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                }
+            ],
+            "home": {
+                "name": "Brooklyn Nets",
+                "alias": "BKN",
+                "id": "583ec9d6-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3436",
+                "reference": "1610612751"
+            },
+            "away": {
+                "name": "Washington Wizards",
+                "alias": "WAS",
+                "id": "583ec8d4-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3431",
+                "reference": "1610612764"
+            }
+        },
+        {
+            "id": "027115fa-c2c0-4752-a753-8bf5e5460cf3",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T01:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785631",
+            "reference": "0022301221",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "7657c204-a20b-527a-99cb-dc29218462aa",
+                "name": "FedExForum",
+                "capacity": 18119,
+                "address": "191 Beale Street",
+                "city": "Memphis",
+                "state": "TN",
+                "zip": "38103",
+                "country": "USA",
+                "sr_id": "sr:venue:6926",
+                "location": {
+                    "lat": "35.138142",
+                    "lng": "-90.050427"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "649"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668-1"
+                }
+            ],
+            "home": {
+                "name": "Memphis Grizzlies",
+                "alias": "MEM",
+                "id": "583eca88-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3415",
+                "reference": "1610612763"
+            },
+            "away": {
+                "name": "Minnesota Timberwolves",
+                "alias": "MIN",
+                "id": "583eca2f-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3426",
+                "reference": "1610612750"
+            }
+        },
+        {
+            "id": "a3780647-60fe-4866-b9f2-41ccce45a430",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T01:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785629",
+            "reference": "0022301220",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "b67d5f09-28b2-5bc6-9097-af312007d2f4",
+                "name": "Kaseya Center",
+                "capacity": 19600,
+                "address": "601 Biscayne Boulevard",
+                "city": "Miami",
+                "state": "FL",
+                "zip": "33132",
+                "country": "USA",
+                "sr_id": "sr:venue:6928",
+                "location": {
+                    "lat": "25.781389",
+                    "lng": "-80.188056"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "BSSUN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "653"
+                },
+                {
+                    "network": "BSOH",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "660"
+                }
+            ],
+            "home": {
+                "name": "Miami Heat",
+                "alias": "MIA",
+                "id": "583ecea6-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3435",
+                "reference": "1610612748"
+            },
+            "away": {
+                "name": "Cleveland Cavaliers",
+                "alias": "CLE",
+                "id": "583ec773-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3432",
+                "reference": "1610612739"
+            }
+        },
+        {
+            "id": "f86c826c-77fe-4cd6-b011-7dfc8a9e928b",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T01:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785633",
+            "reference": "0022301222",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "a13af216-4409-5021-8dd5-255cc71bffc3",
+                "name": "Paycom Center",
+                "capacity": 18203,
+                "address": "100 W. Reno Avenue",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73102",
+                "country": "USA",
+                "sr_id": "sr:venue:6934",
+                "location": {
+                    "lat": "35.463333",
+                    "lng": "-97.515"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "BSOK",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "675"
+                },
+                {
+                    "network": "NBCS-BA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "696"
+                }
+            ],
+            "home": {
+                "name": "Oklahoma City Thunder",
+                "alias": "OKC",
+                "id": "583ecfff-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3418",
+                "reference": "1610612760"
+            },
+            "away": {
+                "name": "Golden State Warriors",
+                "alias": "GSW",
+                "id": "583ec825-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3428",
+                "reference": "1610612744"
+            }
+        },
+        {
+            "id": "60955f1b-430d-4941-8e5e-bbc17839ba59",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T01:30:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785635",
+            "reference": "0022301223",
+            "time_zones": {
+                "venue": "US/Central",
+                "home": "US/Central",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "8a7580c0-4052-54d5-85cd-85aab6200acf",
+                "name": "Frost Bank Center",
+                "capacity": 18581,
+                "address": "1 AT&T Center Parkway",
+                "city": "San Antonio",
+                "state": "TX",
+                "zip": "78219",
+                "country": "USA",
+                "sr_id": "sr:venue:6112",
+                "location": {
+                    "lat": "29.426944",
+                    "lng": "-98.4375"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676"
+                },
+                {
+                    "network": "NBCS-CHI",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "665"
+                }
+            ],
+            "home": {
+                "name": "San Antonio Spurs",
+                "alias": "SAS",
+                "id": "583ecd4f-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3429",
+                "reference": "1610612759"
+            },
+            "away": {
+                "name": "Chicago Bulls",
+                "alias": "CHI",
+                "id": "583ec5fd-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3409",
+                "reference": "1610612741"
+            }
+        },
+        {
+            "id": "1c6e55df-ac7b-4aa1-93e1-3ccb9789845e",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T02:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785637",
+            "reference": "0022301224",
+            "time_zones": {
+                "venue": "US/Mountain",
+                "home": "US/Mountain",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
+                "name": "Ball Arena",
+                "capacity": 19520,
+                "address": "1000 Chopper Circle",
+                "city": "Denver",
+                "state": "CO",
+                "zip": "80204",
+                "country": "USA",
+                "sr_id": "sr:venue:5976",
+                "location": {
+                    "lat": "39.749034",
+                    "lng": "-105.007604"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ALT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "681"
+                },
+                {
+                    "network": "Space City Home Network",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "674"
+                }
+            ],
+            "home": {
+                "name": "Denver Nuggets",
+                "alias": "DEN",
+                "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3417",
+                "reference": "1610612743"
+            },
+            "away": {
+                "name": "Houston Rockets",
+                "alias": "HOU",
+                "id": "583ecb3a-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3412",
+                "reference": "1610612745"
+            }
+        },
+        {
+            "id": "6329bdd5-111e-4a78-b2a4-a0a2a09742bc",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T03:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785639",
+            "reference": "0022301225",
+            "time_zones": {
+                "venue": "US/Mountain",
+                "home": "US/Mountain",
+                "away": "US/Pacific"
+            },
+            "venue": {
+                "id": "53bac75a-a667-52b5-a416-b80718ae4ed2",
+                "name": "Delta Center",
+                "capacity": 18206,
+                "address": "301 South Temple Street",
+                "city": "Salt Lake City",
+                "state": "UT",
+                "zip": "84101",
+                "country": "USA",
+                "sr_id": "sr:venue:6944",
+                "location": {
+                    "lat": "40.768273",
+                    "lng": "-111.901141"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ESPN",
+                    "type": "TV",
+                    "locale": "National",
+                    "channel": "206"
+                },
+                {
+                    "network": "KJZZ",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSSC",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "693"
+                }
+            ],
+            "home": {
+                "name": "Utah Jazz",
+                "alias": "UTA",
+                "id": "583ece50-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3434",
+                "reference": "1610612762"
+            },
+            "away": {
+                "name": "LA Clippers",
+                "alias": "LAC",
+                "id": "583ecdfb-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3425",
+                "reference": "1610612746"
+            }
+        },
+        {
+            "id": "a2b5e228-8be5-4562-87fe-8dd566780c4c",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-09T03:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:45785641",
+            "reference": "0022301226",
+            "time_zones": {
+                "venue": "US/Pacific",
+                "home": "US/Pacific",
+                "away": "US/Central"
+            },
+            "venue": {
+                "id": "1d1f74a2-7b35-56f0-8cbd-552c51cb2c14",
+                "name": "Moda Center",
+                "capacity": 19393,
+                "address": "1 Center Court",
+                "city": "Portland",
+                "state": "OR",
+                "zip": "97227",
+                "country": "USA",
+                "sr_id": "sr:venue:6940",
+                "location": {
+                    "lat": "45.531667",
+                    "lng": "-122.666667"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "ROOT Sports NW",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "687"
+                },
+                {
+                    "network": "ROOT Sports NW+",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "687-1"
+                },
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676"
+                }
+            ],
+            "home": {
+                "name": "Portland Trail Blazers",
+                "alias": "POR",
+                "id": "583ed056-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3414",
+                "reference": "1610612757"
+            },
+            "away": {
+                "name": "Dallas Mavericks",
+                "alias": "DAL",
+                "id": "583ecf50-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3411",
+                "reference": "1610612742"
             }
         },
         {
@@ -22360,10 +24063,65 @@
             }
         },
         {
+            "id": "8f0a0fd2-25b6-4ac4-a425-c1db0e3f7247",
+            "status": "scheduled",
+            "coverage": "full",
+            "scheduled": "2023-12-23T00:00:00Z",
+            "track_on_court": true,
+            "sr_id": "sr:match:43066005",
+            "reference": "0022300382",
+            "time_zones": {
+                "venue": "US/Eastern",
+                "home": "US/Eastern",
+                "away": "US/Eastern"
+            },
+            "venue": {
+                "id": "b3dca541-859e-5301-bf90-4ec677a514a9",
+                "name": "Wells Fargo Center",
+                "capacity": 20478,
+                "address": "3601 S. Broad Street",
+                "city": "Philadelphia",
+                "state": "PA",
+                "zip": "19148",
+                "country": "USA",
+                "sr_id": "sr:venue:6068",
+                "location": {
+                    "lat": "39.9012",
+                    "lng": "-75.171995"
+                }
+            },
+            "broadcasts": [
+                {
+                    "network": "NBCS-PH",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "SportsNet",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
+            "home": {
+                "name": "Philadelphia 76ers",
+                "alias": "PHI",
+                "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3420",
+                "reference": "1610612755"
+            },
+            "away": {
+                "name": "Toronto Raptors",
+                "alias": "TOR",
+                "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
+                "sr_id": "sr:team:3433",
+                "reference": "1610612761"
+            }
+        },
+        {
             "id": "7a63d031-4098-4a8e-8f25-d90976090bd6",
             "status": "scheduled",
             "coverage": "full",
-            "scheduled": "2023-12-22T23:30:00Z",
+            "scheduled": "2023-12-23T00:30:00Z",
             "track_on_court": true,
             "sr_id": "sr:match:43066007",
             "reference": "0022300383",
@@ -22420,61 +24178,6 @@
                 "id": "583ed102-fb46-11e1-82cb-f4ce4684ea4c",
                 "sr_id": "sr:team:3417",
                 "reference": "1610612743"
-            }
-        },
-        {
-            "id": "8f0a0fd2-25b6-4ac4-a425-c1db0e3f7247",
-            "status": "scheduled",
-            "coverage": "full",
-            "scheduled": "2023-12-23T00:00:00Z",
-            "track_on_court": true,
-            "sr_id": "sr:match:43066005",
-            "reference": "0022300382",
-            "time_zones": {
-                "venue": "US/Eastern",
-                "home": "US/Eastern",
-                "away": "US/Eastern"
-            },
-            "venue": {
-                "id": "b3dca541-859e-5301-bf90-4ec677a514a9",
-                "name": "Wells Fargo Center",
-                "capacity": 20478,
-                "address": "3601 S. Broad Street",
-                "city": "Philadelphia",
-                "state": "PA",
-                "zip": "19148",
-                "country": "USA",
-                "sr_id": "sr:venue:6068",
-                "location": {
-                    "lat": "39.9012",
-                    "lng": "-75.171995"
-                }
-            },
-            "broadcasts": [
-                {
-                    "network": "NBCS-PH",
-                    "type": "TV",
-                    "locale": "Home"
-                },
-                {
-                    "network": "SportsNet",
-                    "type": "TV",
-                    "locale": "International"
-                }
-            ],
-            "home": {
-                "name": "Philadelphia 76ers",
-                "alias": "PHI",
-                "id": "583ec87d-fb46-11e1-82cb-f4ce4684ea4c",
-                "sr_id": "sr:team:3420",
-                "reference": "1610612755"
-            },
-            "away": {
-                "name": "Toronto Raptors",
-                "alias": "TOR",
-                "id": "583ecda6-fb46-11e1-82cb-f4ce4684ea4c",
-                "sr_id": "sr:team:3433",
-                "reference": "1610612761"
             }
         },
         {
