@@ -56,7 +56,7 @@ def main():
                 for player in flopping_fouls:
                     flopping_counts[player] = flopping_counts.get(player, 0) + 1
 
-            time.sleep(1.5)  # Delay due to API rate limit
+            time.sleep(3.5)  # Delay due to API rate limit
 
     # Print the results to console
     for player, count in flopping_counts.items():

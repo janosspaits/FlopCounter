@@ -42,9 +42,18 @@ def load_existing_data(filepath):
     except (FileNotFoundError, json.JSONDecodeError):
         return {}  # Return an empty dictionary if file doesn't exist or is empty
 
-# Check if a game has already been processed
-def is_already_processed(game_id, processed_games):
-    return game_id in processed_games
+def load_processed_games(filepath):
+    try:
+        with open(filepath, 'r') as file:
+            data = json.load(file)
+            return set(data)  # Assuming the file contains a list of game IDs
+    except (FileNotFoundError, json.JSONDecodeError):
+        return set()  # Return an empty set if file doesn't exist or is empty
+
+# Save processed games to a JSON file
+def save_processed_games(processed_games, filepath):
+    with open(filepath, 'w') as file:
+        json.dump(list(processed_games), file, indent=4)  # Convert set to list for JSON serialization
 
 # Mark a game as processed
 def mark_as_processed(game_id, processed_games):
@@ -61,22 +70,22 @@ def main():
 
     api_key = read_api_key('apikey.txt')
     flopping_counts = load_existing_data('flopping_counts.json')
-    processed_games = set(flopping_counts.keys())  # Assuming game IDs are keys
+    processed_games = load_processed_games('processed_games.json')  # Load the set of processed game IDs
 
     for date, ids in game_ids.items():
         for game_id in ids:
-            if not is_already_processed(game_id, processed_games):
+            if game_id not in processed_games:
                 play_by_play_data = fetch_play_by_play_data(game_id, api_key)
                 if play_by_play_data:
                     periods_data = play_by_play_data["periods"]
                     flopping_fouls = extract_flopping_fouls(periods_data)
                     for player in flopping_fouls:
                         flopping_counts[player] = flopping_counts.get(player, 0) + 1
-
+                processed_games.add(game_id)  # Directly add to processed_games set
                 time.sleep(1.5)  # Delay due to API rate limit
-                mark_as_processed(game_id, processed_games)
 
     save_data(flopping_counts, 'flopping_counts.json')
+    save_processed_games(processed_games, 'processed_games.json')  # Save the updated set of processed game IDs
 
 if __name__ == "__main__":
     main()

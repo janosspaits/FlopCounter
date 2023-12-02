@@ -52,8 +52,7 @@ def fetch_seasonal_data(team_name, team_id, api_key):
         data = response.json()
         totals = data.get('own_record', {}).get('total', {})
         selected_data = {key: totals.get(key) for key in ['games_played', 'field_goals_made', 'field_goals_att', 
-                                                          'two_points_made', 'two_points_att', 'three_points_made', 
-                                                          'three_points_att', 'free_throws_made', 'total_rebounds', 
+                                                          'free_throws_made', 'free_throws_att','total_rebounds', 
                                                           'assists', 'total_turnovers', 'steals', 'blocks']}
         return team_name, selected_data
     else:
@@ -67,8 +66,7 @@ api_key = read_api_key('apikey.txt')
 with open('team_selected_totals.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     # Write the header row
-    headers = ['Team', 'Games Played', 'Field Goals Made', 'Field Goals Attempted', 'Two Points Made', 
-               'Two Points Attempted', 'Three Points Made', 'Three Points Attempted', 'Free Throws Made', 
+    headers = ['Team', 'Games Played', 'Field Goals Made', 'Field Goals Attempted', 'Free Throws Made', 'Free Throws Attempted', 
                'Total Rebounds', 'Assists', 'Total Turnovers', 'Steals', 'Blocks']
     writer.writerow(headers)
 

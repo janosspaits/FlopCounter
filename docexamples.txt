@@ -1,0 +1,13 @@
+Access the League Leaders feed by replacing the parameters in the following URL:
+
+https://api.sportradar.com/nba/{access_level}/{version}/{language_code}/seasons/{season_year}/{nba_season}/leaders.{format}?api_key={your_api_key}
+
+Parameter	Description
+access_level	Defines the access level of your API key as Production (production) or Trial (trial)
+version	Version number of the API you are accessing (Current Version: v8).
+language_code	2 letter code for supported languages: en (English), ru (Russian), zh (simplified Chinese), and ja (Japanese).
+season_year	Year in 4 digit format (YYYY).
+nba_season	Preseason (PRE), Regular Season (REG), Play in Tournament (PIT), In-Season Tournament (IST), or Postseason (PST).
+format	xml or json.
+your_api_key	Your API key.
+

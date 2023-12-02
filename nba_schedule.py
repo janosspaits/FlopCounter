@@ -52,7 +52,8 @@ def read_api_key(filepath):
 
 # Uncomment and call to fetch_nba_schedule:
 
-# api_key = read_api_key('apikey.txt')
-# fetch_nba_schedule(api_key)
+if __name__ == "__main__":
+    api_key = read_api_key('apikey.txt')
+    fetch_nba_schedule(api_key)
 
 ##########################################################################################################
