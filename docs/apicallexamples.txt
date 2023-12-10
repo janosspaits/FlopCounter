@@ -11,3 +11,13 @@ nba_season	Preseason (PRE), Regular Season (REG), Play in Tournament (PIT), In-S
 format	xml or json.
 your_api_key	Your API key.
 
+
+Daily changelog:
+https://api.sportradar.com/nba/trial/v8/en/league/2023/12/07/changes.json?api_key=fku7f496w8psx9x3ad4fa9fx
+
+Team season stats
+https://api.sportradar.com/nba/trial/v8/en/seasons/2023/REG/teams/583eccfa-fb46-11e1-82cb-f4ce4684ea4c/statistics.json?api_key=fku7f496w8psx9x3ad4fa9fx
+
+Player profile - Porzingis
+https://api.sportradar.com/nba/trial/v8/en/players/3c5901ef-af1d-441d-aeed-8e0a93cead49/profile.json?api_key=fku7f496w8psx9x3ad4fa9fx
+
