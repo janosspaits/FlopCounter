@@ -1,9 +1,16 @@
 import requests
 import json
 import time
+from datetime import datetime
+from bs4 import BeautifulSoup
 from nba_schedule import NBASchedule
 
-# Read API key from file
+API_KEY_FILE = 'apikey.txt'
+FLOPPING_COUNTS_FILE = 'flopping_counts.json'
+PROCESSED_GAMES_FILE = 'processed_games.json'
+SCRAPING_URL = "https://www.spotrac.com/nba/fines-suspensions/fines/flopping/#player"
+
+
 def read_api_key(filepath):
     with open(filepath, 'r') as file:
         return file.readline().strip()
@@ -23,7 +30,7 @@ def fetch_play_by_play_data(game_id, api_key):
         print(f"Error fetching data for game {game_id}: {response.status_code}")
         return None
 
-# Extract player names who committed technical fouls for flopping
+# Extract player names
 def extract_flopping_fouls(periods_data):
     flopping_players = []
 
@@ -36,36 +43,63 @@ def extract_flopping_fouls(periods_data):
     
     return flopping_players
 
-# Load existing data
+
 def load_existing_data(filepath):
     try:
         with open(filepath, 'r') as file:
             data = json.load(file)
             return data
     except (FileNotFoundError, json.JSONDecodeError):
-        return {}  # Return an empty dictionary if file doesn't exist or is empty
+        return {} 
 
 def load_processed_games(filepath):
     try:
         with open(filepath, 'r') as file:
             data = json.load(file)
-            return set(data)  # Assuming the file contains a list of game IDs
+            return set(data)
     except (FileNotFoundError, json.JSONDecodeError):
-        return set()  # Return an empty set if file doesn't exist or is empty
+        return set()
 
 # Save processed games to a JSON file
 def save_processed_games(processed_games, filepath):
     with open(filepath, 'w') as file:
-        json.dump(list(processed_games), file, indent=4)  # Convert set to list for JSON serialization
+        json.dump(list(processed_games), file, indent=4)
 
-# Mark a game as processed
 def mark_as_processed(game_id, processed_games):
     processed_games.add(game_id)
 
-# Save data to a JSON file
 def save_data(data, filepath):
     with open(filepath, 'w') as file:
         json.dump(data, file, indent=4)
+
+def integrate_scraped_data(scraped_data, flopping_counts):
+    for entry in scraped_data:
+        player_name = entry['player']
+        foul_date = entry['date']
+        # If the player is already in the flopping counts, update the date if the scraped date is more recent
+        if player_name in flopping_counts:
+            existing_date = flopping_counts[player_name].get('date')
+            if not existing_date or datetime.strptime(foul_date, "%m/%d/%Y") > datetime.strptime(existing_date, "%m/%d/%Y"):
+                flopping_counts[player_name]['date'] = foul_date
+        # If the player is not in the counts, add them with a count of 1
+        else:
+            flopping_counts[player_name] = {'count': 1, 'date': foul_date}
+
+
+def scrape_flopping_fouls():
+    response = requests.get(SCRAPING_URL)
+    soup = BeautifulSoup(response.content, "html.parser")
+    table = soup.find(id='main')
+    rows = table.find_all('tr')[1:]
+
+    scraped_data = []
+    for row in rows:
+        cols = row.find_all('td')
+        if cols and len(cols) > 3:
+            player_name = cols[0].get_text(strip=True)
+            date_text = cols[3].get_text(strip=True)
+            scraped_data.append({"player": player_name, "date": date_text})
+    return scraped_data
 
 def main():
     nba_schedule = NBASchedule()
@@ -73,7 +107,9 @@ def main():
 
     api_key = read_api_key('apikey.txt')
     flopping_counts = load_existing_data('flopping_counts.json')
-    processed_games = load_processed_games('processed_games.json')  # Load the set of processed game IDs
+    processed_games = load_processed_games('processed_games.json')
+
+    scraped_data = scrape_flopping_fouls()
 
     for date, ids in game_ids.items():
         for game_id in ids:
@@ -86,11 +122,13 @@ def main():
                         flopping_counts[player] = flopping_counts.get(player, 0) + 1
                 else:
                     print(f"No 'periods' data for game {game_id}")
-                processed_games.add(game_id)  # Directly add to processed_games set
+                processed_games.add(game_id)
                 time.sleep(1.5)  # Delay due to API rate limit
 
+    integrate_scraped_data(scraped_data, flopping_counts)
+
     save_data(flopping_counts, 'flopping_counts.json')
-    save_processed_games(processed_games, 'processed_games.json')  # Save the updated set of processed game IDs
+    save_processed_games(processed_games, 'processed_games.json')
 
 if __name__ == "__main__":
     main()
