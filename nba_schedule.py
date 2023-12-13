@@ -12,15 +12,16 @@ class NBASchedule:
         with open(self.schedule_file_path, 'r') as file:
             return json.load(file)
 
-    def extract_game_ids(self):
-        """Extract game IDs with their dates up until the current day."""
-        today = datetime.date.today().isoformat()  # Automatically get today's date
+    def extract_game_ids(self, cutoff_date=None):
+        """Extract game IDs with their dates up until the specified cutoff date or current day."""
+        today = datetime.date.today().isoformat()
+        cutoff = cutoff_date if cutoff_date else today
         game_ids_by_date = {}
 
         if "games" in self.schedule_data:
             for game in self.schedule_data["games"]:
                 game_date = game["scheduled"].split("T")[0]  # Extract the date part
-                if game_date <= today:
+                if game_date <= cutoff:
                     if game_date not in game_ids_by_date:
                         game_ids_by_date[game_date] = []
                     game_ids_by_date[game_date].append(game["id"])
