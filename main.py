@@ -101,7 +101,7 @@ def integrate_scraped_data(scraped_data, flopping_counts):
             }
 
 
-def scrape_flopping_fouls(cutoff_date_str="2023-11-01"):
+def scrape_flopping_fouls(cutoff_date_str=None):
     response = requests.get(SCRAPING_URL)
     if response.status_code != 200:
         print("Failed to retrieve the webpage.")
@@ -118,7 +118,8 @@ def scrape_flopping_fouls(cutoff_date_str="2023-11-01"):
         print("No rows found in the table.")
         return []
 
-    cutoff_date = datetime.strptime(cutoff_date_str, "%Y-%m-%d").date()
+    # Use current date as default if cutoff_date_str is None
+    cutoff_date = datetime.strptime(cutoff_date_str, "%Y-%m-%d").date() if cutoff_date_str else datetime.now().date()
     scraped_data = []
 
     for row in rows:
@@ -150,9 +151,10 @@ def scrape_flopping_fouls(cutoff_date_str="2023-11-01"):
     return scraped_data
 
 
+
 def main():
     nba_schedule = NBASchedule()
-    cutoff_date = "2023-10-28"  # Set a cutoff date for testing
+    cutoff_date = None  # Set a cutoff date for testing
     game_ids = nba_schedule.extract_game_ids(cutoff_date)
 
     api_key = read_api_key(API_KEY_FILE)
