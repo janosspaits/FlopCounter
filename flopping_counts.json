@@ -1,40 +1,284 @@
 {
-"Moses Moody": {"count": 2, "dates": ["10/28/2023", "12/03/2023"]},
-"Josh Okogie": {"count": 2, "dates": ["10/29/2023", "10/25/2023"]},
-"Josh Richardson": {"count": 2, "dates": ["11/04/2023", "12/08/2023"]},
-"Kristaps Porzingis": {"count": 1, "dates": ["10/25/2023"]},
-"Jalen Brunson": {"count": 1, "dates": ["10/25/2023"]},
-"Darius Garland": {"count": 1, "dates": ["10/25/2023"]},
-"Luguentz Dort": {"count": 1, "dates": ["10/26/2023"]},
-"Lauri Markkanen": {"count": 1, "dates": ["10/26/2023"]},
-"Kelly Oubre Jr.": {"count": 1, "dates": ["11/02/2023"]},
-"Ziaire Williams": {"count": 1, "dates": ["11/04/2023"]},
-"Jerami Grant": {"count": 1, "dates": ["11/04/2023"]},
-"Drew Eubanks": {"count": 1, "dates": ["11/04/2023"]},
-"Ausar Thompson": {"count": 1, "dates": ["11/05/2023"]},
-"Matisse Thybulle": {"count": 1, "dates": ["11/06/2023"]},
-"Santi Aldama": {"count": 1, "dates": ["11/06/2023"]},
-"Jordan Hawkins": {"count": 1, "dates": ["11/07/2023"]},
-"Jordan Poole": {"count": 1, "dates": ["11/09/2023"]},
-"Gary Trent Jr.": {"count": 1, "dates": ["11/09/2023"]},
-"Bryce McGowens": {"count": 1, "dates": ["11/12/2023"]},
-"Marcus Smart": {"count": 1, "dates": ["11/12/2023"]},
-"Terance Mann": {"count": 1, "dates": ["11/12/2023"]},
-"Obi Toppin": {"count": 1, "dates": ["11/15/2023"]},
-"Jeremy Sochan": {"count": 1, "dates": ["11/15/2023"]},
-"Thanasis Antetokounmpo": {"count": 1, "dates": ["11/16/2023"]},
-"OG Anunoby": {"count": 1, "dates": ["11/22/2023"]},
-"Moritz Wagner": {"count": 1, "dates": ["12/07/2023"]},
-"Nikola Jokic": {"count": 1, "dates": ["12/03/2023"]},
-"Luka Doncic": {"count": 1, "dates": ["11/29/2023"]},
-"Collin Sexton": {"count": 1, "dates": ["11/26/2023"]},
-"Franz Wagner": {"count": 1, "dates": ["11/25/2023"]},
-"Kentavious Caldwell-Pope": {"count": 1, "dates": ["11/13/2023"]},
-"Max Strus": {"count": 1, "dates": ["11/12/2023"]},
-"Caris LeVert": {"count": 1, "dates": ["11/02/2023"]},
-"Paul George": {"count": 1, "dates": ["11/01/2023"]},
-"Jordan Clarkson": {"count": 1, "dates": ["10/29/2023"]},
-"Coby White": {"count": 1, "dates": ["10/29/2023"]},
-"Donte DiVincenzo": {"count": 1, "dates": ["10/26/2023"]},
-"Jevon Carter": {"count": 1, "dates": ["10/26/2023"]}
+    "Kristaps Porzingis": {
+        "count": 1,
+        "dates": [
+            "10/25/2023"
+        ]
+    },
+    "Jalen Brunson": {
+        "count": 1,
+        "dates": [
+            "10/25/2023"
+        ]
+    },
+    "Darius Garland": {
+        "count": 1,
+        "dates": [
+            "10/25/2023"
+        ]
+    },
+    "Luguentz Dort": {
+        "count": 1,
+        "dates": [
+            "10/26/2023"
+        ]
+    },
+    "Lauri Markkanen": {
+        "count": 1,
+        "dates": [
+            "10/26/2023"
+        ]
+    },
+    "Moses Moody": {
+        "count": 2,
+        "dates": [
+            "10/28/2023",
+            "12/03/2023"
+        ]
+    },
+    "Josh Okogie": {
+        "count": 2,
+        "dates": [
+            "10/29/2023",
+            "10/25/2023"
+        ]
+    },
+    "Kelly Oubre Jr.": {
+        "count": 1,
+        "dates": [
+            "11/02/2023"
+        ]
+    },
+    "Josh Richardson": {
+        "count": 3,
+        "dates": [
+            "11/04/2023",
+            "12/09/2023",
+            "12/08/2023"
+        ]
+    },
+    "Ziaire Williams": {
+        "count": 1,
+        "dates": [
+            "11/04/2023"
+        ]
+    },
+    "Jerami Grant": {
+        "count": 1,
+        "dates": [
+            "11/04/2023"
+        ]
+    },
+    "Drew Eubanks": {
+        "count": 1,
+        "dates": [
+            "11/04/2023"
+        ]
+    },
+    "Ausar Thompson": {
+        "count": 1,
+        "dates": [
+            "11/05/2023"
+        ]
+    },
+    "Matisse Thybulle": {
+        "count": 1,
+        "dates": [
+            "11/06/2023"
+        ]
+    },
+    "Santi Aldama": {
+        "count": 1,
+        "dates": [
+            "11/06/2023"
+        ]
+    },
+    "Jordan Hawkins": {
+        "count": 1,
+        "dates": [
+            "11/07/2023"
+        ]
+    },
+    "Jordan Poole": {
+        "count": 1,
+        "dates": [
+            "11/09/2023"
+        ]
+    },
+    "Gary Trent Jr.": {
+        "count": 1,
+        "dates": [
+            "11/09/2023"
+        ]
+    },
+    "Bryce McGowens": {
+        "count": 1,
+        "dates": [
+            "11/12/2023"
+        ]
+    },
+    "Marcus Smart": {
+        "count": 1,
+        "dates": [
+            "11/12/2023"
+        ]
+    },
+    "Terance Mann": {
+        "count": 1,
+        "dates": [
+            "11/12/2023"
+        ]
+    },
+    "Obi Toppin": {
+        "count": 1,
+        "dates": [
+            "11/15/2023"
+        ]
+    },
+    "Jeremy Sochan": {
+        "count": 1,
+        "dates": [
+            "11/15/2023"
+        ]
+    },
+    "Thanasis Antetokounmpo": {
+        "count": 1,
+        "dates": [
+            "11/16/2023"
+        ]
+    },
+    "OG Anunoby": {
+        "count": 1,
+        "dates": [
+            "11/22/2023"
+        ]
+    },
+    "Brandin Podziemski": {
+        "count": 2,
+        "dates": [
+            "11/23/2023",
+            "12/07/2023"
+        ]
+    },
+    "Jevon Carter": {
+        "count": 2,
+        "dates": [
+            "11/25/2023",
+            "10/26/2023"
+        ]
+    },
+    "Deni Avdija": {
+        "count": 1,
+        "dates": [
+            "11/28/2023"
+        ]
+    },
+    "LeBron James": {
+        "count": 1,
+        "dates": [
+            "11/30/2023"
+        ]
+    },
+    "Jaylen Nowell": {
+        "count": 1,
+        "dates": [
+            "12/03/2023"
+        ]
+    },
+    "Chris Boucher": {
+        "count": 1,
+        "dates": [
+            "12/14/2023"
+        ]
+    },
+    "Dillon Brooks": {
+        "count": 1,
+        "dates": [
+            "12/16/2023"
+        ]
+    },
+    "Julius Randle": {
+        "count": 1,
+        "dates": [
+            "12/16/2023"
+        ]
+    },
+    "Malik Monk": {
+        "count": 1,
+        "dates": [
+            "12/11/2023"
+        ]
+    },
+    "Moritz Wagner": {
+        "count": 1,
+        "dates": [
+            "12/07/2023"
+        ]
+    },
+    "Nikola Jokic": {
+        "count": 1,
+        "dates": [
+            "12/03/2023"
+        ]
+    },
+    "Luka Doncic": {
+        "count": 1,
+        "dates": [
+            "11/29/2023"
+        ]
+    },
+    "Collin Sexton": {
+        "count": 1,
+        "dates": [
+            "11/26/2023"
+        ]
+    },
+    "Franz Wagner": {
+        "count": 1,
+        "dates": [
+            "11/25/2023"
+        ]
+    },
+    "Kentavious Caldwell-Pope": {
+        "count": 1,
+        "dates": [
+            "11/13/2023"
+        ]
+    },
+    "Max Strus": {
+        "count": 1,
+        "dates": [
+            "11/12/2023"
+        ]
+    },
+    "Caris LeVert": {
+        "count": 1,
+        "dates": [
+            "11/02/2023"
+        ]
+    },
+    "Paul George": {
+        "count": 1,
+        "dates": [
+            "11/01/2023"
+        ]
+    },
+    "Coby White": {
+        "count": 1,
+        "dates": [
+            "10/29/2023"
+        ]
+    },
+    "Jordan Clarkson": {
+        "count": 1,
+        "dates": [
+            "10/29/2023"
+        ]
+    },
+    "Donte DiVincenzo": {
+        "count": 1,
+        "dates": [
+            "10/26/2023"
+        ]
+    }
 }
