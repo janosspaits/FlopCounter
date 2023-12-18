@@ -83,16 +83,19 @@ def integrate_scraped_data(scraped_data, flopping_counts):
         if player_name in flopping_counts:
             existing_entry = flopping_counts[player_name]
 
-            # If the existing entry is an integer, convert it to the expected dictionary format
+            # Ensure the existing entry is in the expected dictionary format
             if isinstance(existing_entry, int):
-                flopping_counts[player_name] = {
-                    'count': existing_entry,  # existing count
-                    'dates': [foul_date]     # start a new list with the current date
+                existing_entry = {
+                    'count': existing_entry,
+                    'dates': []
                 }
-            else:
-                # Add the date to the list of dates and increment the count
-                existing_entry['dates'].append(foul_date)
-                existing_entry['count'] += 1
+
+            # Add the date only if it's not already in the list, then increment the count
+            if foul_date not in existing_entry.get('dates', []):
+                existing_entry.setdefault('dates', []).append(foul_date)
+                existing_entry['count'] = len(existing_entry['dates'])
+
+            flopping_counts[player_name] = existing_entry
         else:
             # Initialize a new entry for the player
             flopping_counts[player_name] = {
