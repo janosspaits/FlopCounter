@@ -6,6 +6,7 @@
 "Jevon Carter": {"count": 2, "dates": ["11/25/2023", "10/26/2023"]},
 "Dillon Brooks": {"count": 2, "dates": ["12/16/2023", "12/18/2023"]},
 "Jalen Brunson": {"count": 2, "dates": ["10/25/2023", "10/28/2023"]},
+"Jordan Poole": {"count": 2, "dates": ["11/09/2023", "12/22/2023"]},
 "Kristaps Porzingis": {"count": 1, "dates": ["10/25/2023"]},
 "Darius Garland": {"count": 1, "dates": ["10/25/2023"]},
 "Luguentz Dort": {"count": 1, "dates": ["10/26/2023"]},
@@ -18,7 +19,6 @@
 "Matisse Thybulle": {"count": 1, "dates": ["11/06/2023"]},
 "Santi Aldama": {"count": 1, "dates": ["11/06/2023"]},
 "Jordan Hawkins": {"count": 1, "dates": ["11/07/2023"]},
-"Jordan Poole": {"count": 1, "dates": ["11/09/2023"]},
 "Gary Trent Jr.": {"count": 1, "dates": ["11/09/2023"]},
 "Bryce McGowens": {"count": 1, "dates": ["11/12/2023"]},
 "Marcus Smart": {"count": 1, "dates": ["11/12/2023"]},
@@ -45,5 +45,9 @@
 "Coby White": {"count": 1, "dates": ["10/29/2023"]},
 "Jordan Clarkson": {"count": 1, "dates": ["10/29/2023"]},
 "Donte DiVincenzo": {"count": 1, "dates": ["10/26/2023"]},
-"Nikola Vucevic": {"count": 1, "dates": ["12/19/2023"]}
+"Nikola Vucevic": {"count": 1, "dates": ["12/19/2023"]},
+"Immanuel Quickley": {"count": 1, "dates": ["12/21/2023"]},
+"Jonathan Kuminga": {"count": 1, "dates": ["12/24/2023"]},
+"Stephen Curry": {"count": 1, "dates": ["12/24/2023"]},
+"Patrick Beverley": {"count": 1, "dates": ["12/28/2023"]}
 }
