@@ -8,6 +8,7 @@
 "Jalen Brunson": {"count": 2, "dates": ["10/25/2023", "10/28/2023"]},
 "Jordan Poole": {"count": 2, "dates": ["11/09/2023", "12/22/2023"]},
 "Marcus Smart": {"count": 2, "dates": ["11/12/2023", "01/03/2024"]},
+"Thanasis Antetokounmpo": {"count": 2, "dates": ["11/16/2023", "01/12/2024"]},
 "Kristaps Porzingis": {"count": 1, "dates": ["10/25/2023"]},
 "Darius Garland": {"count": 1, "dates": ["10/25/2023"]},
 "Luguentz Dort": {"count": 1, "dates": ["10/26/2023"]},
@@ -25,7 +26,6 @@
 "Terance Mann": {"count": 1, "dates": ["11/12/2023"]},
 "Obi Toppin": {"count": 1, "dates": ["11/15/2023"]},
 "Jeremy Sochan": {"count": 1, "dates": ["11/15/2023"]},
-"Thanasis Antetokounmpo": {"count": 1, "dates": ["11/16/2023"]},
 "OG Anunoby": {"count": 1, "dates": ["11/22/2023"]},
 "Deni Avdija": {"count": 1, "dates": ["11/28/2023"]},
 "LeBron James": {"count": 1, "dates": ["11/30/2023"]},
@@ -54,5 +54,6 @@
 "Jarred Vanderbilt": {"count": 1, "dates": ["12/31/2023"]},
 "P.J. Washington": {"count": 1, "dates": ["01/02/2024"]},
 "Bobby Portis": {"count": 1, "dates": ["01/09/2024"]},
-"Alec Burks": {"count": 1, "dates": ["01/10/2024"]}
+"Alec Burks": {"count": 1, "dates": ["01/10/2024"]},
+"DeMar DeRozan": {"count": 1, "dates": ["01/11/2024"]}
 }
