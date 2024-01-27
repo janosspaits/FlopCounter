@@ -2,14 +2,15 @@ import json
 import datetime
 import requests
 
+
 class NBASchedule:
     def __init__(self):
-        self.schedule_file_path = 'nba_schedule.json'  # Hardcoded file path
+        self.schedule_file_path = "nba_schedule.json"  # Hardcoded file path
         self.schedule_data = self.load_schedule()
 
     def load_schedule(self):
         """Load the NBA schedule JSON data from the file."""
-        with open(self.schedule_file_path, 'r') as file:
+        with open(self.schedule_file_path, "r") as file:
             return json.load(file)
 
     def extract_game_ids(self, cutoff_date=None):
@@ -28,10 +29,6 @@ class NBASchedule:
 
         return game_ids_by_date
 
-#########################################################################################################
-
-# This part is for manually refreshing the nba shedule json file. Should not be used regularly
-
 
 def fetch_nba_schedule(api_key):
     url = f"https://api.sportradar.us/nba/trial/v8/en/games/2023/REG/schedule.json?api_key={api_key}"
@@ -41,20 +38,22 @@ def fetch_nba_schedule(api_key):
 
     if response.status_code == 200:
         # Save the response data in a JSON file with pretty formatting
-        with open('nba_schedule.json', 'w') as file:
+        with open("nba_schedule.json", "w") as file:
             json.dump(response.json(), file, indent=4)
         print("Schedule saved successfully.")
     else:
         print(f"Error: {response.status_code}")
 
+
 def read_api_key(filepath):
-    with open(filepath, 'r') as file:
+    with open(filepath, "r") as file:
         return file.readline().strip()
+
 
 # Uncomment and call to fetch_nba_schedule:
 
 if __name__ == "__main__":
-    api_key = read_api_key('apikey.txt')
+    api_key = read_api_key("apikey.txt")
     fetch_nba_schedule(api_key)
 
 ##########################################################################################################
