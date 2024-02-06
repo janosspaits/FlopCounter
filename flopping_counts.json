@@ -10,6 +10,8 @@
 "Marcus Smart": {"count": 2, "dates": ["11/12/2023", "01/03/2024"]},
 "Thanasis Antetokounmpo": {"count": 2, "dates": ["11/16/2023", "01/12/2024"]},
 "Coby White": {"count": 2, "dates": ["10/29/2023", "01/16/2024"]},
+"Drew Eubanks": {"count": 2, "dates": ["11/04/2023", "02/03/2024"]},
+"Kyle Anderson": {"count": 2, "dates": ["01/15/2024", "02/05/2024"]},
 "Kristaps Porzingis": {"count": 1, "dates": ["10/25/2023"]},
 "Darius Garland": {"count": 1, "dates": ["10/25/2023"]},
 "Luguentz Dort": {"count": 1, "dates": ["10/26/2023"]},
@@ -17,7 +19,6 @@
 "Kelly Oubre Jr.": {"count": 1, "dates": ["11/02/2023"]},
 "Ziaire Williams": {"count": 1, "dates": ["11/04/2023"]},
 "Jerami Grant": {"count": 1, "dates": ["11/04/2023"]},
-"Drew Eubanks": {"count": 1, "dates": ["11/04/2023"]},
 "Ausar Thompson": {"count": 1, "dates": ["11/05/2023"]},
 "Matisse Thybulle": {"count": 1, "dates": ["11/06/2023"]},
 "Santi Aldama": {"count": 1, "dates": ["11/06/2023"]},
@@ -63,7 +64,7 @@
 "Aaron Gordon": {"count": 1, "dates": ["01/24/2024"]},
 "Jusuf Nurkic": {"count": 1, "dates": ["01/25/2024"]},
 "LaMelo Ball": {"count": 1, "dates": ["01/24/2024"]},
-"Kyle Anderson": {"count": 1, "dates": ["01/15/2024"]},
 "R.J. Barrett": {"count": 1, "dates": ["01/13/2024"]},
-"Taurean Prince": {"count": 1, "dates": ["01/28/2024"]}
+"Taurean Prince": {"count": 1, "dates": ["01/28/2024"]},
+"Royce O'Neale": {"count": 1, "dates": ["02/03/2024"]}
 }
