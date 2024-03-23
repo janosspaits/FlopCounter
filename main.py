@@ -42,16 +42,9 @@ def extract_flopping_fouls(periods_data, game_date):
     for period in periods_data:
         if "events" in period:
             for event in period["events"]:
-                if (
-                    "description" in event
-                    and "technical foul (Flopping)" in event["description"]
-                ):
-                    player_name = event["description"].split(
-                        " technical foul (Flopping)"
-                    )[0]
-                    flopping_players.append(
-                        {"player": player_name, "date": formatted_game_date}
-                    )
+                if "description" in event and "technical foul (Flopping)" in event["description"]:
+                    player_name = event["description"].split(" technical foul (Flopping)")[0]
+                    flopping_players.append({"player": player_name, "date": formatted_game_date})
 
     return flopping_players
 
@@ -130,11 +123,7 @@ def scrape_flopping_fouls(cutoff_date_str=None):
         return []
 
     # Use current date as default if cutoff_date_str is None
-    cutoff_date = (
-        datetime.strptime(cutoff_date_str, "%Y-%m-%d").date()
-        if cutoff_date_str
-        else datetime.now().date()
-    )
+    cutoff_date = datetime.strptime(cutoff_date_str, "%Y-%m-%d").date() if cutoff_date_str else datetime.now().date()
     scraped_data = []
 
     for row in rows:
@@ -167,6 +156,15 @@ def scrape_flopping_fouls(cutoff_date_str=None):
 
 
 def sort_flopping_counts_descending(filepath):
+    """
+    Sorts the counts of items in the given file in descending order and saves the result back to the same file.
+
+    Args:
+        filepath (str): The path to the file to be sorted.
+
+    Returns:
+        None
+    """
     try:
         with open(filepath, "r") as file:
             data = json.load(file)
