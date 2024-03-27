@@ -22,7 +22,10 @@ def fetch_play_by_play_data(game_id, api_key):
 
     base_url = "https://api.sportradar.us/nba/trial/v8/en/games/{game_id}/pbp.json"
     full_url = base_url.format(game_id=game_id) + f"?api_key={api_key}"
-    response = requests.get(full_url)
+
+    headers = {"accept": "application/json"}
+
+    response = requests.get(full_url, headers=headers)
 
     if response.status_code == 200:
         data = response.json()
