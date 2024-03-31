@@ -1,6 +1,7 @@
 {
 "Josh Richardson": {"count": 3, "dates": ["11/04/2023", "12/09/2023", "12/08/2023"]},
 "Jevon Carter": {"count": 3, "dates": ["11/25/2023", "10/26/2023", "03/26/2024"]},
+"Luguentz Dort": {"count": 3, "dates": ["10/26/2023", "03/17/2024", "03/30/2024"]},
 "Moses Moody": {"count": 2, "dates": ["10/28/2023", "12/03/2023"]},
 "Josh Okogie": {"count": 2, "dates": ["10/29/2023", "10/25/2023"]},
 "Brandin Podziemski": {"count": 2, "dates": ["11/23/2023", "12/07/2023"]},
@@ -12,7 +13,6 @@
 "Coby White": {"count": 2, "dates": ["10/29/2023", "01/16/2024"]},
 "Drew Eubanks": {"count": 2, "dates": ["11/04/2023", "02/03/2024"]},
 "Kyle Anderson": {"count": 2, "dates": ["01/15/2024", "02/05/2024"]},
-"Luguentz Dort": {"count": 2, "dates": ["10/26/2023", "03/17/2024"]},
 "Kristaps Porzingis": {"count": 1, "dates": ["10/25/2023"]},
 "Darius Garland": {"count": 1, "dates": ["10/25/2023"]},
 "Lauri Markkanen": {"count": 1, "dates": ["10/26/2023"]},
@@ -79,5 +79,6 @@
 "Cameron Johnson": {"count": 1, "dates": ["03/13/2024"]},
 "Simone Fontecchio": {"count": 1, "dates": ["03/15/2024"]},
 "Kelly Olynyk": {"count": 1, "dates": ["03/12/2024"]},
-"Toumani Camara": {"count": 1, "dates": ["03/23/2024"]}
+"Toumani Camara": {"count": 1, "dates": ["03/23/2024"]},
+"Rudy Gobert": {"count": 1, "dates": ["03/30/2024"]}
 }
