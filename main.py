@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+from typing import Dict, List, Optional, Union
 from datetime import datetime
 from bs4 import BeautifulSoup
 from nba_schedule import NBASchedule
@@ -16,8 +17,17 @@ def read_api_key(filepath):
         return file.readline().strip()
 
 
-# API call for play-by-play log based on game ID (match ID)
-def fetch_play_by_play_data(game_id, api_key):
+def fetch_play_by_play_data(game_id: str, api_key: str) -> dict:
+    """
+    A function to fetch play-by-play data for a given game ID using the Sportradar API.
+
+    Parameters:
+    - game_id (str): The ID of the game for which to fetch data.
+    - api_key (str): The API key for accessing the Sportradar API.
+
+    Returns:
+    - dict: The play-by-play data for the specified game ID, or None if an error occurs.
+    """
     print(f"Fetching data for game ID: {game_id}")
 
     base_url = "https://api.sportradar.us/nba/trial/v8/en/games/{game_id}/pbp.json"
@@ -38,7 +48,17 @@ def fetch_play_by_play_data(game_id, api_key):
 
 
 # Checks the play-by-play data for the Flopping foul string
-def extract_flopping_fouls(periods_data, game_date):
+def extract_flopping_fouls(periods_data: list, game_date: str) -> list:
+    """
+    Extracts players who committed a flopping foul from the provided periods data for a specific game date.
+
+    Parameters:
+    - periods_data (list): A list of period data containing information about events during the game.
+    - game_date (str): The date of the game in the format "%Y-%m-%d".
+
+    Returns:
+    - list: A list of dictionaries containing player names who committed a flopping foul and the formatted game date.
+    """
     flopping_players = []
     formatted_game_date = datetime.strptime(game_date, "%Y-%m-%d").strftime("%m/%d/%Y")
 
@@ -52,7 +72,16 @@ def extract_flopping_fouls(periods_data, game_date):
     return flopping_players
 
 
-def load_existing_data(filepath):
+def load_existing_data(filepath: str) -> dict:
+    """
+    Load existing data from the given file path and return it as a dictionary.
+
+    Args:
+    - filepath (str): The file path to load the data from.
+
+    Returns:
+    - dict: The loaded data as a dictionary, or an empty dictionary if the file is not found or the data cannot be decoded as JSON.
+    """
     try:
         with open(filepath, "r") as file:
             data = json.load(file)
@@ -61,7 +90,16 @@ def load_existing_data(filepath):
         return {}
 
 
-def load_processed_games(filepath):
+def load_processed_games(filepath: str) -> set:
+    """
+    A function that loads processed games from a file.
+
+    Parameters:
+    - filepath: a string representing the file path to load the processed games from
+
+    Returns:
+    - a set containing the processed games, or an empty set if the file is not found or cannot be decoded
+    """
     try:
         with open(filepath, "r") as file:
             data = json.load(file)
@@ -70,22 +108,74 @@ def load_processed_games(filepath):
         return set()
 
 
-# Save processed games to a JSON file
-def save_processed_games(processed_games, filepath):
+def save_processed_games(processed_games: set, filepath: str) -> None:
+    """
+    Save the processed games to a file.
+
+    Parameters:
+    - processed_games (set): The set of processed games to be saved.
+    - filepath (str): The file path where the processed games will be saved.
+    """
     with open(filepath, "w") as file:
         json.dump(list(processed_games), file, indent=4)
 
 
-def mark_as_processed(game_id, processed_games):
+def mark_as_processed(game_id: str, processed_games: set) -> None:
+    """
+    Add the given game ID to the set of processed games.
+
+    Parameters:
+    - game_id (str): The ID of the game to mark as processed.
+    - processed_games (set): A set of game IDs that have already been processed.
+
+    Returns:
+    - None
+    """
     processed_games.add(game_id)
 
 
-def save_data(data, filepath):
+def save_data(data: dict, filepath: str) -> None:
+    """
+    Save the data to a JSON file.
+
+    Parameters:
+    - data (dict): The data to be saved.
+    - filepath (str): The file path where the data will be saved.
+
+    Returns:
+    - None
+    """
     with open(filepath, "w") as file:
         json.dump(data, file, indent=4)
 
 
-def integrate_scraped_data(scraped_data, flopping_counts):
+def integrate_scraped_data(
+    scraped_data: List[Dict[str, Union[str, int]]], flopping_counts: Dict[str, Dict[str, Union[int, List[str]]]]
+) -> None:
+    """
+    Integrate the scraped data into the existing flopping counts data structure.
+
+    The scraped_data is a list of dictionaries with the following keys:
+    - player: the player's name
+    - date: the date of the foul
+    - count: the number of times the player has been called for a foul that season
+
+    The flopping_counts is a dictionary keyed by player name, with values that are
+    either an integer (the number of times the player has been called for a foul)
+    or a dictionary with the following keys:
+    - count: the number of times the player has been called for a foul
+    - dates: a list of dates when the player committed a foul
+
+    This function updates the flopping_counts dictionary to reflect the new
+    information from the scraped_data.
+
+    Args:
+        scraped_data: The data scraped from the website.
+        flopping_counts: The existing data structure containing flopping counts.
+
+    Returns:
+        None
+    """
     for entry in scraped_data:
         player_name = entry["player"]
         foul_date = entry["date"]
@@ -108,7 +198,18 @@ def integrate_scraped_data(scraped_data, flopping_counts):
             flopping_counts[player_name] = {"count": 1, "dates": [foul_date]}
 
 
-def scrape_flopping_fouls(cutoff_date_str=None):
+def scrape_flopping_fouls(cutoff_date_str: Optional[str] = None) -> List[Dict[str, str]]:
+    """
+    Scrape the flopping fouls from the website.
+
+    Args:
+        cutoff_date_str: The cutoff date for the flopping fouls. If None, use the current date.
+
+    Returns:
+        A list of dictionaries with the following keys:
+        - player: The player's name
+        - date: The date of the foul
+    """
     response = requests.get(SCRAPING_URL)
     if response.status_code != 200:
         print("Failed to retrieve the webpage.")
@@ -158,12 +259,13 @@ def scrape_flopping_fouls(cutoff_date_str=None):
     return scraped_data
 
 
-def sort_flopping_counts_descending(filepath):
+
+def sort_flopping_counts_descending(filepath: str) -> None:
     """
-    Sorts the counts of items in the given file in descending order and saves the result back to the same file.
+    Sorts the counts of items in the given JSON file in descending order and saves the result back to the same file.
 
     Args:
-        filepath (str): The path to the file to be sorted.
+        filepath (str): The path to the JSON file to be sorted.
 
     Returns:
         None
@@ -198,8 +300,12 @@ def sort_flopping_counts_descending(filepath):
 
 
 def main():
+    """
+    Main function that runs the program.
+    """
     nba_schedule = NBASchedule()
-    cutoff_date = None  # Set a cutoff date for testing
+    # Set a cutoff date for testing
+    cutoff_date = None
     game_ids = nba_schedule.extract_game_ids(cutoff_date)
 
     api_key = read_api_key(API_KEY_FILE)
@@ -209,16 +315,21 @@ def main():
     scraped_data = scrape_flopping_fouls(cutoff_date)
 
     for date, ids in game_ids.items():
+        # Iterate over game IDs for the given date
         for game_id in ids:
             if game_id not in processed_games:
+                # If game ID was not processed before, get play-by-play data
                 play_by_play_data = fetch_play_by_play_data(game_id, api_key)
                 if play_by_play_data and "periods" in play_by_play_data:
+                    # If play-by-play data exist, extract flopping fouls
                     periods_data = play_by_play_data["periods"]
                     flopping_fouls = extract_flopping_fouls(periods_data, date)
+                    # For each flopping foul, update player's count and list of dates
                     for foul in flopping_fouls:
                         player = foul["player"]
                         date_of_foul = foul["date"]
                         if player in flopping_counts:
+                            # If player already exists in dict, update count and dates
                             if isinstance(flopping_counts[player], dict):
                                 flopping_counts[player]["dates"].append(date_of_foul)
                                 flopping_counts[player]["count"] += 1
@@ -228,6 +339,7 @@ def main():
                                     "dates": [date_of_foul],
                                 }
                         else:
+                            # If player doesn't exist in dict, create new entry
                             flopping_counts[player] = {
                                 "count": 1,
                                 "dates": [date_of_foul],
