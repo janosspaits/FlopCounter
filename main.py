@@ -12,7 +12,16 @@ PROCESSED_GAMES_FILE = "processed_games.json"
 SCRAPING_URL = "https://www.spotrac.com/nba/fines-suspensions/fines/flopping/#player"
 
 
-def read_api_key(filepath):
+def read_api_key(filepath: str) -> str:
+    """
+    Reads an API key from a file.
+
+    Parameters:
+    - filepath (str): The path to the file containing the API key.
+
+    Returns:
+    - The API key as a string.
+    """
     with open(filepath, "r") as file:
         return file.readline().strip()
 
@@ -39,12 +48,11 @@ def fetch_play_by_play_data(game_id: str, api_key: str) -> dict:
 
     if response.status_code == 200:
         data = response.json()
-        if "periods" not in data:
-            print(f"Unexpected response structure for game {game_id}: {data}")
-        return data
+        is_scheduled = data.get("status") == "scheduled"
+        return data, is_scheduled
     else:
         print(f"Error fetching data for game {game_id}: {response.status_code}")
-        return None
+        return None, False
 
 
 # Checks the play-by-play data for the Flopping foul string
@@ -259,7 +267,6 @@ def scrape_flopping_fouls(cutoff_date_str: Optional[str] = None) -> List[Dict[st
     return scraped_data
 
 
-
 def sort_flopping_counts_descending(filepath: str) -> None:
     """
     Sorts the counts of items in the given JSON file in descending order and saves the result back to the same file.
@@ -319,8 +326,9 @@ def main():
         for game_id in ids:
             if game_id not in processed_games:
                 # If game ID was not processed before, get play-by-play data
-                play_by_play_data = fetch_play_by_play_data(game_id, api_key)
-                if play_by_play_data and "periods" in play_by_play_data:
+                play_by_play_data, is_scheduled = fetch_play_by_play_data(game_id, api_key)
+                # Check if the game has started/completed and play-by-play data exists
+                if play_by_play_data and "periods" in play_by_play_data and not is_scheduled:
                     # If play-by-play data exist, extract flopping fouls
                     periods_data = play_by_play_data["periods"]
                     flopping_fouls = extract_flopping_fouls(periods_data, date)
@@ -344,7 +352,11 @@ def main():
                                 "count": 1,
                                 "dates": [date_of_foul],
                             }
-                processed_games.add(game_id)
+                    # Since the game has started/completed, mark as processed
+                    processed_games.add(game_id)
+                else:
+                    # Optionally handle scheduled games differently or log for info
+                    print(f"Game {game_id} is scheduled or data incomplete. Skipping.")
                 time.sleep(1.5)  # Delay due to API rate limit
 
     integrate_scraped_data(scraped_data, flopping_counts)
