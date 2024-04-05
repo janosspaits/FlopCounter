@@ -1,15 +1,21 @@
 # FlopCounter
 
 ## Description
+
+This is the only source on the planet where you can check the exact number of flopping technical fouls committed in the NBA for the 2023/2024 season.
+
 This Python application is designed to analyze play-by-play data from NBA games to identify instances of technical fouls for flopping. It utilizes data from the SportRadar API to fetch detailed game events and processes this data to extract and report players who have committed flopping technical fouls.
 
 ## Features
 Fetches play-by-play data for NBA games using the Sportradar API.
+Scrapes Spotrac for the same data.
 Identifies and counts instances of flopping technical fouls committed by players.
 Stores and displays the list of players who have committed flopping fouls, including the count of occurrences.
 
 ## Data Source
 The application retrieves data from the SportRadar NBA API. This includes game schedules, play-by-play event descriptions, and specific game-related data. (https://developer.sportradar.com/docs/read/basketball/NBA_v8)
+It also retrieves data from Spotrac: https://www.spotrac.com/nba/fines-suspensions/fines/flopping/#player
+These two sources oddly complement each other, as Spotrac only track the flopping fines given as post-game decisions, whilst the API only tracks flopping technical fouls called live in game.
 
 ## Disclaimer
 ### Usage Disclaimer
@@ -20,6 +26,7 @@ This application, and any data retrieved through it, must not be used for commer
 
 ## Installation and Setup
 - Ensure Python 3.x is installed on your system.
+- Highly recommend reopening the project in a docker container (using the devcontainer.json file) as this will automatically install the packages needed.
 - Install/import required Python packages: requests, json, time (pip install -r requirements.txt)
 - Obtain an API key from SportRadar: https://developer.sportradar.com
 - Save the API key to a file in the project directory called apikey.txt (this file should be git ignored for privacy)
