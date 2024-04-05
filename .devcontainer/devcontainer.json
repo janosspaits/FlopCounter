@@ -1,0 +1,22 @@
+{
+    "name": "FlopContainer",
+    "image": "python:3.12-bullseye",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.black-formatter",
+                "codeium.codeium"
+            ]
+        }
+    },
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "postCreateCommand": "pip install -r requirements.txt",
+    "mounts": [
+        "source=${localWorkspaceFolder}/processed_games.json,target=/workspace/processed_games.json,type=bind,consistency=cached",
+        "source=${localWorkspaceFolder}/flopping_counts.json,target=/workspace/flopping_counts.json,type=bind,consistency=cached"
+    ],
+    "remoteUser": "root"
+}
