@@ -13,7 +13,7 @@
     },
     "workspaceFolder": "/workspace",
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
-    "postCreateCommand": "pip install -r requirements.txt",
+    "postCreateCommand": "apt-get update && apt-get install -y git && pip install -r requirements.txt",
     "mounts": [
         "source=${localWorkspaceFolder}/processed_games.json,target=/workspace/processed_games.json,type=bind,consistency=cached",
         "source=${localWorkspaceFolder}/flopping_counts.json,target=/workspace/flopping_counts.json,type=bind,consistency=cached"
