@@ -1,7 +1,12 @@
 import requests
 import json
 import time
-from typing import Dict, List, Optional, Union
+from typing import (
+    Dict,
+    List,
+    Optional,
+    Union,
+)
 from datetime import datetime
 from bs4 import BeautifulSoup
 from nba_schedule import NBASchedule
@@ -75,12 +80,19 @@ def extract_flopping_fouls(periods_data: list, game_date: str) -> list:
             for event in period["events"]:
                 if "description" in event and "technical foul (Flopping)" in event["description"]:
                     player_name = event["description"].split(" technical foul (Flopping)")[0]
-                    flopping_players.append({"player": player_name, "date": formatted_game_date})
+                    flopping_players.append(
+                        {
+                            "player": player_name,
+                            "date": formatted_game_date,
+                        }
+                    )
 
     return flopping_players
 
 
-def load_existing_data(filepath: str) -> dict:
+def load_existing_data(
+    filepath: str,
+) -> dict:
     """
     Load existing data from the given file path and return it as a dictionary.
 
@@ -94,11 +106,16 @@ def load_existing_data(filepath: str) -> dict:
         with open(filepath, "r") as file:
             data = json.load(file)
             return data
-    except (FileNotFoundError, json.JSONDecodeError):
+    except (
+        FileNotFoundError,
+        json.JSONDecodeError,
+    ):
         return {}
 
 
-def load_processed_games(filepath: str) -> set:
+def load_processed_games(
+    filepath: str,
+) -> set:
     """
     A function that loads processed games from a file.
 
@@ -112,7 +129,10 @@ def load_processed_games(filepath: str) -> set:
         with open(filepath, "r") as file:
             data = json.load(file)
             return set(data)
-    except (FileNotFoundError, json.JSONDecodeError):
+    except (
+        FileNotFoundError,
+        json.JSONDecodeError,
+    ):
         return set()
 
 
@@ -125,7 +145,11 @@ def save_processed_games(processed_games: set, filepath: str) -> None:
     - filepath (str): The file path where the processed games will be saved.
     """
     with open(filepath, "w") as file:
-        json.dump(list(processed_games), file, indent=4)
+        json.dump(
+            list(processed_games),
+            file,
+            indent=4,
+        )
 
 
 def mark_as_processed(game_id: str, processed_games: set) -> None:
@@ -158,7 +182,8 @@ def save_data(data: dict, filepath: str) -> None:
 
 
 def integrate_scraped_data(
-    scraped_data: List[Dict[str, Union[str, int]]], flopping_counts: Dict[str, Dict[str, Union[int, List[str]]]]
+    scraped_data: List[Dict[str, Union[str, int]]],
+    flopping_counts: Dict[str, Dict[str, Union[int, List[str]]]],
 ) -> None:
     """
     Integrate the scraped data into the existing flopping counts data structure.
@@ -193,7 +218,10 @@ def integrate_scraped_data(
 
             # Ensure the existing entry is in the expected dictionary format
             if isinstance(existing_entry, int):
-                existing_entry = {"count": existing_entry, "dates": []}
+                existing_entry = {
+                    "count": existing_entry,
+                    "dates": [],
+                }
 
             # Add the date only if it's not already in the list, then increment the count
             if foul_date not in existing_entry.get("dates", []):
@@ -203,10 +231,15 @@ def integrate_scraped_data(
             flopping_counts[player_name] = existing_entry
         else:
             # Initialize a new entry for the player
-            flopping_counts[player_name] = {"count": 1, "dates": [foul_date]}
+            flopping_counts[player_name] = {
+                "count": 1,
+                "dates": [foul_date],
+            }
 
 
-def scrape_flopping_fouls(cutoff_date_str: Optional[str] = None) -> List[Dict[str, str]]:
+def scrape_flopping_fouls(
+    cutoff_date_str: Optional[str] = None,
+) -> List[Dict[str, str]]:
     """
     Scrape the flopping fouls from the website.
 
@@ -259,7 +292,12 @@ def scrape_flopping_fouls(cutoff_date_str: Optional[str] = None) -> List[Dict[st
             continue
 
         if date_of_foul <= cutoff_date:
-            scraped_data.append({"player": player_name, "date": date_text})
+            scraped_data.append(
+                {
+                    "player": player_name,
+                    "date": date_text,
+                }
+            )
         else:
             print(f"Date {date_text} is after the cutoff date.")
 
@@ -267,7 +305,9 @@ def scrape_flopping_fouls(cutoff_date_str: Optional[str] = None) -> List[Dict[st
     return scraped_data
 
 
-def sort_flopping_counts_descending(filepath: str) -> None:
+def sort_flopping_counts_descending(
+    filepath: str,
+) -> None:
     """
     Sorts the counts of items in the given JSON file in descending order and saves the result back to the same file.
 
@@ -290,13 +330,16 @@ def sort_flopping_counts_descending(filepath: str) -> None:
     items = list(data.items())
     sorted_items = sorted(
         items,
-        key=lambda x: x[1]["count"] if isinstance(x[1], dict) else x[1],
+        key=lambda x: (x[1]["count"] if isinstance(x[1], dict) else x[1]),
         reverse=True,
     )
 
     with open(filepath, "w") as file:
         file.write("{\n")
-        for i, (player, details) in enumerate(sorted_items):
+        for i, (
+            player,
+            details,
+        ) in enumerate(sorted_items):
             json_string = f'"{player}": {json.dumps(details)}'
             if i < len(sorted_items) - 1:
                 json_string += ","
@@ -311,8 +354,7 @@ def main():
     Main function that runs the program.
     """
     nba_schedule = NBASchedule()
-    # Set a cutoff date for testing
-    cutoff_date = None
+    cutoff_date = None  # Set a cutoff date for testing
     game_ids = nba_schedule.extract_game_ids(cutoff_date)
 
     api_key = read_api_key(API_KEY_FILE)
@@ -321,49 +363,61 @@ def main():
 
     scraped_data = scrape_flopping_fouls(cutoff_date)
 
-    for date, ids in game_ids.items():
-        # Iterate over game IDs for the given date
-        for game_id in ids:
-            if game_id not in processed_games:
-                # If game ID was not processed before, get play-by-play data
-                play_by_play_data, is_scheduled = fetch_play_by_play_data(game_id, api_key)
-                # Check if the game has started/completed and play-by-play data exists
-                if play_by_play_data and "periods" in play_by_play_data and not is_scheduled:
-                    # If play-by-play data exist, extract flopping fouls
-                    periods_data = play_by_play_data["periods"]
-                    flopping_fouls = extract_flopping_fouls(periods_data, date)
-                    # For each flopping foul, update player's count and list of dates
-                    for foul in flopping_fouls:
-                        player = foul["player"]
-                        date_of_foul = foul["date"]
-                        if player in flopping_counts:
-                            # If player already exists in dict, update count and dates
-                            if isinstance(flopping_counts[player], dict):
-                                flopping_counts[player]["dates"].append(date_of_foul)
-                                flopping_counts[player]["count"] += 1
+    try:
+        for date, ids in game_ids.items():
+            for game_id in ids:
+                if game_id not in processed_games:
+                    (
+                        play_by_play_data,
+                        is_scheduled,
+                    ) = fetch_play_by_play_data(game_id, api_key)
+                    if play_by_play_data and "periods" in play_by_play_data and not is_scheduled:
+                        periods_data = play_by_play_data["periods"]
+                        flopping_fouls = extract_flopping_fouls(
+                            periods_data,
+                            date,
+                        )
+                        for foul in flopping_fouls:
+                            player = foul["player"]
+                            date_of_foul = foul["date"]
+                            if player in flopping_counts:
+                                if isinstance(
+                                    flopping_counts[player],
+                                    dict,
+                                ):
+                                    flopping_counts[player]["dates"].append(date_of_foul)
+                                    flopping_counts[player]["count"] += 1
+                                else:
+                                    flopping_counts[player] = {
+                                        "count": flopping_counts[player] + 1,
+                                        "dates": [date_of_foul],
+                                    }
                             else:
                                 flopping_counts[player] = {
-                                    "count": flopping_counts[player] + 1,
+                                    "count": 1,
                                     "dates": [date_of_foul],
                                 }
-                        else:
-                            # If player doesn't exist in dict, create new entry
-                            flopping_counts[player] = {
-                                "count": 1,
-                                "dates": [date_of_foul],
-                            }
-                    # Since the game has started/completed, mark as processed
-                    processed_games.add(game_id)
-                else:
-                    # Optionally handle scheduled games differently or log for info
-                    print(f"Game {game_id} is scheduled or data incomplete. Skipping.")
-                time.sleep(1.5)  # Delay due to API rate limit
+                        processed_games.add(game_id)
+                    else:
+                        print(f"Game {game_id} is scheduled or data incomplete. Skipping.")
+                    time.sleep(1.5)  # Delay due to API rate limit
 
-    integrate_scraped_data(scraped_data, flopping_counts)
+        integrate_scraped_data(scraped_data, flopping_counts)
 
-    save_data(flopping_counts, FLOPPING_COUNTS_FILE)
-    save_processed_games(processed_games, PROCESSED_GAMES_FILE)
-    sort_flopping_counts_descending(FLOPPING_COUNTS_FILE)
+    except KeyboardInterrupt:
+        print("Interrupted! Saving progress before exiting...")
+    finally:
+        # These lines will run whether the script is interrupted or completes normally
+        save_data(
+            flopping_counts,
+            FLOPPING_COUNTS_FILE,
+        )
+        save_processed_games(
+            processed_games,
+            PROCESSED_GAMES_FILE,
+        )
+        sort_flopping_counts_descending(FLOPPING_COUNTS_FILE)
+        print("Progress saved successfully.")
 
 
 if __name__ == "__main__":
