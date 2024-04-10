@@ -363,28 +363,23 @@ def main():
 
     scraped_data = scrape_flopping_fouls(cutoff_date)
 
+    api_call_counter = 0
+
     try:
         for date, ids in game_ids.items():
             for game_id in ids:
                 if game_id not in processed_games:
-                    (
-                        play_by_play_data,
-                        is_scheduled,
-                    ) = fetch_play_by_play_data(game_id, api_key)
+                    (play_by_play_data, is_scheduled) = fetch_play_by_play_data(game_id, api_key)
+                    api_call_counter += 1
+                    print(f"API calls made: {api_call_counter}")
                     if play_by_play_data and "periods" in play_by_play_data and not is_scheduled:
                         periods_data = play_by_play_data["periods"]
-                        flopping_fouls = extract_flopping_fouls(
-                            periods_data,
-                            date,
-                        )
+                        flopping_fouls = extract_flopping_fouls(periods_data, date)
                         for foul in flopping_fouls:
                             player = foul["player"]
                             date_of_foul = foul["date"]
                             if player in flopping_counts:
-                                if isinstance(
-                                    flopping_counts[player],
-                                    dict,
-                                ):
+                                if isinstance(flopping_counts[player], dict):
                                     flopping_counts[player]["dates"].append(date_of_foul)
                                     flopping_counts[player]["count"] += 1
                                 else:
@@ -406,17 +401,15 @@ def main():
 
     except KeyboardInterrupt:
         print("Interrupted! Saving progress before exiting...")
+
     finally:
         # These lines will run whether the script is interrupted or completes normally
-        save_data(
-            flopping_counts,
-            FLOPPING_COUNTS_FILE,
-        )
-        save_processed_games(
-            processed_games,
-            PROCESSED_GAMES_FILE,
-        )
+        save_data(flopping_counts, FLOPPING_COUNTS_FILE)
+
+        save_processed_games(processed_games, PROCESSED_GAMES_FILE)
+
         sort_flopping_counts_descending(FLOPPING_COUNTS_FILE)
+
         print("Progress saved successfully.")
 
 
