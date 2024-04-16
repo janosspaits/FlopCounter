@@ -12,8 +12,8 @@ from bs4 import BeautifulSoup
 from nba_schedule import NBASchedule
 
 API_KEY_FILE = "apikey.txt"
-FLOPPING_COUNTS_FILE = "flopping_counts.json"
-PROCESSED_GAMES_FILE = "processed_games.json"
+FLOPPING_COUNTS_FILE = "flopping_counts_new.json"
+PROCESSED_GAMES_FILE = "processed_games_new.json"
 SCRAPING_URL = "https://www.spotrac.com/nba/fines-suspensions/fines/flopping/#player"
 
 
