@@ -1,5 +1,7 @@
 # FlopCounter
 
+### Update 2024/05/09 - one of the sources - the website - has changed, so the webscraping element of this program will not work and potentially break the program. Consider this project abandoned.
+
 ## Description
 
 This is the only source on the planet where you can check the exact number of flopping technical fouls committed in the NBA for the 2023/2024 season.
